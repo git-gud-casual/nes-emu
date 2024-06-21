@@ -14,9 +14,10 @@ if __name__ == "__main__":
     a = bytearray(16384)
     a.extend(cont[16:size + 16])
     a.extend(bytearray(16384 * 2))
+    a[0xFFFC - 0x8000] = 0x00
+    a[0xFFFC - 0x8000 + 1] = 0xC0
 
     cpu = Cpu(CpuMemory(NROMCartridge(a)))
-    cpu._pc = 0xC000
     start = time()
     for i in range(8991):
         try:
