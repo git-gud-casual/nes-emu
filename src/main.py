@@ -1,26 +1,27 @@
 import logging
 
+from time import time, sleep
 from cpu.cpu import Cpu
 from memory import CpuMemory, NROMCartridge
 
 
-logging.basicConfig(level=logging.INFO)
+logging.basicConfig(level=logging.INFO, filename="../nestest/mylog.log", filemode="w")
 
 if __name__ == "__main__":
-    # 0xDEAD_BEEF
-    a = bytearray(64 * 1024)
-    a[0] = 0xA9
-    a[1] = 0xDE
-    a[2] = 0xA2
-    a[3] = 0xEF
-    a[4] = 0x9A
-    a[5] = 0xA2
-    a[6] = 0xAD
-    a[7] = 0xA0
-    a[8] = 0xBE
-    a[0xFFFC - 0x8000 + 1] = 0x80
+    size = 16384
+    with open("../nestest/nestest.nes", 'rb') as f:
+        cont = f.read()
+    a = bytearray(16384)
+    a.extend(cont[16:size + 16])
+    a.extend(bytearray(16384 * 2))
+
     cpu = Cpu(CpuMemory(NROMCartridge(a)))
-    for _ in range(5):
-        cpu.process()
-    print()
-    cpu.print_info()
+    cpu._pc = 0xC000
+    start = time()
+    for i in range(8991):
+        try:
+            cpu.process()
+        except Exception as e:
+            sleep(5)
+            raise e
+    print(f"Time: {time() - start}. CPU Cycles: {cpu._cycles_count}")

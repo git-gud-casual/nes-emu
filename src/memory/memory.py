@@ -34,7 +34,8 @@ class CpuMemory(BaseMemory):
         elif addr < self._PPU_END:
             raise NotImplementedError()
         elif addr < self._APU_AND_IO_END:
-            raise NotImplementedError()
+            print("APU_AND_IO WRITE")
+            # raise NotImplementedError()
         elif addr < self._APU_UNUSED_END:
             pass
         else:

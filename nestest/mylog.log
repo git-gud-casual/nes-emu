@@ -1,0 +1,8991 @@
+INFO:cpu: JMP $C5F5
+INFO:cpu: LDX #00
+INFO:cpu: STX $00
+INFO:cpu: STX $10
+INFO:cpu: STX $11
+INFO:cpu: JSR $C72D
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: BCS $C735
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BCS $C73C
+INFO:cpu: JMP $C740
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: BCC $C747
+INFO:cpu: JMP $C74B
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BCC $C753
+INFO:cpu: NOP
+INFO:cpu: LDA #00
+INFO:cpu: BEQ $C75C
+INFO:cpu: NOP
+INFO:cpu: LDA #40
+INFO:cpu: BEQ $C764
+INFO:cpu: JMP $C768
+INFO:cpu: NOP
+INFO:cpu: LDA #40
+INFO:cpu: BNE $C771
+INFO:cpu: NOP
+INFO:cpu: LDA #00
+INFO:cpu: BNE $C779
+INFO:cpu: JMP $C77D
+INFO:cpu: NOP
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: BVS $C78A
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: BVC $C792
+INFO:cpu: JMP $C796
+INFO:cpu: NOP
+INFO:cpu: LDA #00
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: BVC $C7A3
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: BVS $C7AB
+INFO:cpu: JMP $C7AF
+INFO:cpu: NOP
+INFO:cpu: LDA #00
+INFO:cpu: BPL $C7B8
+INFO:cpu: NOP
+INFO:cpu: LDA #80
+INFO:cpu: BPL $C7C0
+INFO:cpu: JMP $C7D9
+INFO:cpu: NOP
+INFO:cpu: RTS
+INFO:cpu: JSR $C7DB
+INFO:cpu: NOP
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: SEC
+INFO:cpu: SEI
+INFO:cpu: SED
+INFO:cpu: PHP
+INFO:cpu: PLA
+INFO:cpu: AND #EF
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $C7F3
+INFO:cpu: NOP
+INFO:cpu: LDA #40
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: CLD
+INFO:cpu: LDA #10
+INFO:cpu: CLC
+INFO:cpu: PHP
+INFO:cpu: PLA
+INFO:cpu: AND #EF
+INFO:cpu: CMP #64
+INFO:cpu: BEQ $C80A
+INFO:cpu: NOP
+INFO:cpu: LDA #80
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SED
+INFO:cpu: LDA #00
+INFO:cpu: SEC
+INFO:cpu: PHP
+INFO:cpu: PLA
+INFO:cpu: AND #EF
+INFO:cpu: CMP #2F
+INFO:cpu: BEQ $C821
+INFO:cpu: NOP
+INFO:cpu: LDA #FF
+INFO:cpu: PHA
+INFO:cpu: PLP
+INFO:cpu: BNE $C831
+INFO:cpu: BPL $C831
+INFO:cpu: BVC $C831
+INFO:cpu: BCC $C831
+INFO:cpu: JMP $C835
+INFO:cpu: NOP
+INFO:cpu: LDA #04
+INFO:cpu: PHA
+INFO:cpu: PLP
+INFO:cpu: BEQ $C845
+INFO:cpu: BMI $C845
+INFO:cpu: BVS $C845
+INFO:cpu: BCS $C845
+INFO:cpu: JMP $C849
+INFO:cpu: NOP
+INFO:cpu: SED
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: PHA
+INFO:cpu: LDA #FF
+INFO:cpu: PLA
+INFO:cpu: BNE $C863
+INFO:cpu: BMI $C863
+INFO:cpu: BVC $C863
+INFO:cpu: BCS $C863
+INFO:cpu: JMP $C867
+INFO:cpu: NOP
+INFO:cpu: LDA #00
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: PHA
+INFO:cpu: LDA #00
+INFO:cpu: PLA
+INFO:cpu: BEQ $C880
+INFO:cpu: BPL $C880
+INFO:cpu: BVS $C880
+INFO:cpu: BCC $C880
+INFO:cpu: JMP $C884
+INFO:cpu: RTS
+INFO:cpu: JSR $C885
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: ORA #AA
+INFO:cpu: BCS $C89E
+INFO:cpu: BPL $C89E
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $C89E
+INFO:cpu: BVC $C89E
+INFO:cpu: JMP $C8A2
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: ORA #00
+INFO:cpu: BNE $C8B4
+INFO:cpu: BVS $C8B4
+INFO:cpu: BCC $C8B4
+INFO:cpu: BMI $C8B4
+INFO:cpu: JMP $C8B8
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: AND #AA
+INFO:cpu: BNE $C8CB
+INFO:cpu: BVC $C8CB
+INFO:cpu: BCS $C8CB
+INFO:cpu: BMI $C8CB
+INFO:cpu: JMP $C8CF
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #F8
+INFO:cpu: AND #EF
+INFO:cpu: BCC $C8E3
+INFO:cpu: BPL $C8E3
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $C8E3
+INFO:cpu: BVS $C8E3
+INFO:cpu: JMP $C8E7
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #5F
+INFO:cpu: EOR #AA
+INFO:cpu: BCS $C8FC
+INFO:cpu: BPL $C8FC
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $C8FC
+INFO:cpu: BVC $C8FC
+INFO:cpu: JMP $C900
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: EOR #70
+INFO:cpu: BNE $C912
+INFO:cpu: BVS $C912
+INFO:cpu: BCC $C912
+INFO:cpu: BMI $C912
+INFO:cpu: JMP $C916
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: ADC #69
+INFO:cpu: BMI $C92B
+INFO:cpu: BCS $C92B
+INFO:cpu: CMP #69
+INFO:cpu: BNE $C92B
+INFO:cpu: BVS $C92B
+INFO:cpu: JMP $C92F
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: SED
+INFO:cpu: BIT $01
+INFO:cpu: LDA #01
+INFO:cpu: ADC #69
+INFO:cpu: BMI $C945
+INFO:cpu: BCS $C945
+INFO:cpu: CMP #6B
+INFO:cpu: BNE $C945
+INFO:cpu: BVS $C945
+INFO:cpu: JMP $C949
+INFO:cpu: NOP
+INFO:cpu: CLD
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: ADC #7F
+INFO:cpu: BPL $C95E
+INFO:cpu: BCS $C95E
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $C95E
+INFO:cpu: BVC $C95E
+INFO:cpu: JMP $C962
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #7F
+INFO:cpu: ADC #80
+INFO:cpu: BPL $C977
+INFO:cpu: BCS $C977
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $C977
+INFO:cpu: BVS $C977
+INFO:cpu: JMP $C97B
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: ADC #80
+INFO:cpu: BNE $C98D
+INFO:cpu: BMI $C98D
+INFO:cpu: BVS $C98D
+INFO:cpu: BCC $C98D
+INFO:cpu: JMP $C991
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #9F
+INFO:cpu: BEQ $C9A1
+INFO:cpu: BPL $C9A1
+INFO:cpu: BVS $C9A1
+INFO:cpu: BCC $C9A1
+INFO:cpu: JMP $C9A5
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: BNE $C9B6
+INFO:cpu: BMI $C9B6
+INFO:cpu: BVC $C9B6
+INFO:cpu: BCS $C9B6
+INFO:cpu: JMP $C9BA
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: CMP #40
+INFO:cpu: BMI $C9CC
+INFO:cpu: BCC $C9CC
+INFO:cpu: BNE $C9CC
+INFO:cpu: BVC $C9CC
+INFO:cpu: JMP $C9D0
+INFO:cpu: NOP
+INFO:cpu: CLV
+INFO:cpu: CMP #3F
+INFO:cpu: BEQ $C9DF
+INFO:cpu: BMI $C9DF
+INFO:cpu: BCC $C9DF
+INFO:cpu: BVS $C9DF
+INFO:cpu: JMP $C9E3
+INFO:cpu: NOP
+INFO:cpu: CMP #41
+INFO:cpu: BEQ $C9EF
+INFO:cpu: BPL $C9EF
+INFO:cpu: BPL $C9EF
+INFO:cpu: JMP $C9F3
+INFO:cpu: NOP
+INFO:cpu: LDA #80
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $CA01
+INFO:cpu: BPL $CA01
+INFO:cpu: BCC $CA01
+INFO:cpu: JMP $CA05
+INFO:cpu: NOP
+INFO:cpu: CMP #80
+INFO:cpu: BNE $CA11
+INFO:cpu: BMI $CA11
+INFO:cpu: BCC $CA11
+INFO:cpu: JMP $CA15
+INFO:cpu: NOP
+INFO:cpu: CMP #81
+INFO:cpu: BCS $CA21
+INFO:cpu: BEQ $CA21
+INFO:cpu: BPL $CA21
+INFO:cpu: JMP $CA25
+INFO:cpu: NOP
+INFO:cpu: CMP #7F
+INFO:cpu: BCC $CA31
+INFO:cpu: BEQ $CA31
+INFO:cpu: BMI $CA31
+INFO:cpu: JMP $CA35
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: LDY #40
+INFO:cpu: CPY #40
+INFO:cpu: BNE $CA47
+INFO:cpu: BMI $CA47
+INFO:cpu: BCC $CA47
+INFO:cpu: BVC $CA47
+INFO:cpu: JMP $CA4B
+INFO:cpu: NOP
+INFO:cpu: CLV
+INFO:cpu: CPY #3F
+INFO:cpu: BEQ $CA5A
+INFO:cpu: BMI $CA5A
+INFO:cpu: BCC $CA5A
+INFO:cpu: BVS $CA5A
+INFO:cpu: JMP $CA5E
+INFO:cpu: NOP
+INFO:cpu: CPY #41
+INFO:cpu: BEQ $CA6A
+INFO:cpu: BPL $CA6A
+INFO:cpu: BPL $CA6A
+INFO:cpu: JMP $CA6E
+INFO:cpu: NOP
+INFO:cpu: LDY #80
+INFO:cpu: CPY #00
+INFO:cpu: BEQ $CA7C
+INFO:cpu: BPL $CA7C
+INFO:cpu: BCC $CA7C
+INFO:cpu: JMP $CA80
+INFO:cpu: NOP
+INFO:cpu: CPY #80
+INFO:cpu: BNE $CA8C
+INFO:cpu: BMI $CA8C
+INFO:cpu: BCC $CA8C
+INFO:cpu: JMP $CA90
+INFO:cpu: NOP
+INFO:cpu: CPY #81
+INFO:cpu: BCS $CA9C
+INFO:cpu: BEQ $CA9C
+INFO:cpu: BPL $CA9C
+INFO:cpu: JMP $CAA0
+INFO:cpu: NOP
+INFO:cpu: CPY #7F
+INFO:cpu: BCC $CAAC
+INFO:cpu: BEQ $CAAC
+INFO:cpu: BMI $CAAC
+INFO:cpu: JMP $CAB0
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: LDX #40
+INFO:cpu: CPX #40
+INFO:cpu: BNE $CAC2
+INFO:cpu: BMI $CAC2
+INFO:cpu: BCC $CAC2
+INFO:cpu: BVC $CAC2
+INFO:cpu: JMP $CAC6
+INFO:cpu: NOP
+INFO:cpu: CLV
+INFO:cpu: CPX #3F
+INFO:cpu: BEQ $CAD5
+INFO:cpu: BMI $CAD5
+INFO:cpu: BCC $CAD5
+INFO:cpu: BVS $CAD5
+INFO:cpu: JMP $CAD9
+INFO:cpu: NOP
+INFO:cpu: CPX #41
+INFO:cpu: BEQ $CAE5
+INFO:cpu: BPL $CAE5
+INFO:cpu: BPL $CAE5
+INFO:cpu: JMP $CAE9
+INFO:cpu: NOP
+INFO:cpu: LDX #80
+INFO:cpu: CPX #00
+INFO:cpu: BEQ $CAF7
+INFO:cpu: BPL $CAF7
+INFO:cpu: BCC $CAF7
+INFO:cpu: JMP $CAFB
+INFO:cpu: NOP
+INFO:cpu: CPX #80
+INFO:cpu: BNE $CB07
+INFO:cpu: BMI $CB07
+INFO:cpu: BCC $CB07
+INFO:cpu: JMP $CB0B
+INFO:cpu: NOP
+INFO:cpu: CPX #81
+INFO:cpu: BCS $CB17
+INFO:cpu: BEQ $CB17
+INFO:cpu: BPL $CB17
+INFO:cpu: JMP $CB1B
+INFO:cpu: NOP
+INFO:cpu: CPX #7F
+INFO:cpu: BCC $CB27
+INFO:cpu: BEQ $CB27
+INFO:cpu: BMI $CB27
+INFO:cpu: JMP $CB2B
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDX #9F
+INFO:cpu: BEQ $CB3B
+INFO:cpu: BPL $CB3B
+INFO:cpu: BVS $CB3B
+INFO:cpu: BCC $CB3B
+INFO:cpu: JMP $CB3F
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDX #00
+INFO:cpu: BNE $CB50
+INFO:cpu: BMI $CB50
+INFO:cpu: BVC $CB50
+INFO:cpu: BCS $CB50
+INFO:cpu: JMP $CB54
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDY #9F
+INFO:cpu: BEQ $CB64
+INFO:cpu: BPL $CB64
+INFO:cpu: BVS $CB64
+INFO:cpu: BCC $CB64
+INFO:cpu: JMP $CB68
+INFO:cpu: NOP
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDY #00
+INFO:cpu: BNE $CB79
+INFO:cpu: BMI $CB79
+INFO:cpu: BVC $CB79
+INFO:cpu: BCS $CB79
+INFO:cpu: JMP $CB7D
+INFO:cpu: NOP
+INFO:cpu: LDA #55
+INFO:cpu: LDX #AA
+INFO:cpu: LDY #33
+INFO:cpu: CMP #55
+INFO:cpu: BNE $CBAB
+INFO:cpu: CPX #AA
+INFO:cpu: BNE $CBAB
+INFO:cpu: CPY #33
+INFO:cpu: BNE $CBAB
+INFO:cpu: CMP #55
+INFO:cpu: BNE $CBAB
+INFO:cpu: CPX #AA
+INFO:cpu: BNE $CBAB
+INFO:cpu: CPY #33
+INFO:cpu: BNE $CBAB
+INFO:cpu: CMP #56
+INFO:cpu: BEQ $CBAB
+INFO:cpu: CPX #AB
+INFO:cpu: BEQ $CBAB
+INFO:cpu: CPY #34
+INFO:cpu: BEQ $CBAB
+INFO:cpu: JMP $CBAF
+INFO:cpu: LDY #71
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC #40
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC #3F
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC #41
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC #00
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC #7F
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: RTS
+INFO:cpu: JSR $CBDE
+INFO:cpu: NOP
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDA #44
+INFO:cpu: LDX #55
+INFO:cpu: LDY #66
+INFO:cpu: INX
+INFO:cpu: DEY
+INFO:cpu: CPX #56
+INFO:cpu: BNE $CC10
+INFO:cpu: CPY #65
+INFO:cpu: BNE $CC10
+INFO:cpu: INX
+INFO:cpu: INX
+INFO:cpu: DEY
+INFO:cpu: DEY
+INFO:cpu: CPX #58
+INFO:cpu: BNE $CC10
+INFO:cpu: CPY #63
+INFO:cpu: BNE $CC10
+INFO:cpu: DEX
+INFO:cpu: INY
+INFO:cpu: CPX #57
+INFO:cpu: BNE $CC10
+INFO:cpu: CPY #64
+INFO:cpu: BNE $CC10
+INFO:cpu: CMP #44
+INFO:cpu: BNE $CC10
+INFO:cpu: JMP $CC14
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: LDX #69
+INFO:cpu: LDA #96
+INFO:cpu: BIT $01
+INFO:cpu: LDY #FF
+INFO:cpu: INY
+INFO:cpu: BNE $CC5E
+INFO:cpu: BMI $CC5E
+INFO:cpu: BCC $CC5E
+INFO:cpu: BVC $CC5E
+INFO:cpu: CPY #00
+INFO:cpu: BNE $CC5E
+INFO:cpu: INY
+INFO:cpu: BEQ $CC5E
+INFO:cpu: BMI $CC5E
+INFO:cpu: BCC $CC5E
+INFO:cpu: BVC $CC5E
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDY #00
+INFO:cpu: DEY
+INFO:cpu: BEQ $CC5E
+INFO:cpu: BPL $CC5E
+INFO:cpu: BCS $CC5E
+INFO:cpu: BVS $CC5E
+INFO:cpu: CPY #FF
+INFO:cpu: BNE $CC5E
+INFO:cpu: CLC
+INFO:cpu: DEY
+INFO:cpu: BEQ $CC5E
+INFO:cpu: BPL $CC5E
+INFO:cpu: BCS $CC5E
+INFO:cpu: BVS $CC5E
+INFO:cpu: CPY #FE
+INFO:cpu: BNE $CC5E
+INFO:cpu: CMP #96
+INFO:cpu: BNE $CC5E
+INFO:cpu: CPX #69
+INFO:cpu: BNE $CC5E
+INFO:cpu: JMP $CC62
+INFO:cpu: NOP
+INFO:cpu: SEC
+INFO:cpu: LDY #69
+INFO:cpu: LDA #96
+INFO:cpu: BIT $01
+INFO:cpu: LDX #FF
+INFO:cpu: INX
+INFO:cpu: BNE $CCAC
+INFO:cpu: BMI $CCAC
+INFO:cpu: BCC $CCAC
+INFO:cpu: BVC $CCAC
+INFO:cpu: CPX #00
+INFO:cpu: BNE $CCAC
+INFO:cpu: INX
+INFO:cpu: BEQ $CCAC
+INFO:cpu: BMI $CCAC
+INFO:cpu: BCC $CCAC
+INFO:cpu: BVC $CCAC
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDX #00
+INFO:cpu: DEX
+INFO:cpu: BEQ $CCAC
+INFO:cpu: BPL $CCAC
+INFO:cpu: BCS $CCAC
+INFO:cpu: BVS $CCAC
+INFO:cpu: CPX #FF
+INFO:cpu: BNE $CCAC
+INFO:cpu: CLC
+INFO:cpu: DEX
+INFO:cpu: BEQ $CCAC
+INFO:cpu: BPL $CCAC
+INFO:cpu: BCS $CCAC
+INFO:cpu: BVS $CCAC
+INFO:cpu: CPX #FE
+INFO:cpu: BNE $CCAC
+INFO:cpu: CMP #96
+INFO:cpu: BNE $CCAC
+INFO:cpu: CPY #69
+INFO:cpu: BNE $CCAC
+INFO:cpu: JMP $CCB0
+INFO:cpu: NOP
+INFO:cpu: LDA #85
+INFO:cpu: LDX #34
+INFO:cpu: LDY #99
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: TAY
+INFO:cpu: BEQ $CCEB
+INFO:cpu: BCS $CCEB
+INFO:cpu: BVC $CCEB
+INFO:cpu: BPL $CCEB
+INFO:cpu: CMP #85
+INFO:cpu: BNE $CCEB
+INFO:cpu: CPX #34
+INFO:cpu: BNE $CCEB
+INFO:cpu: CPY #85
+INFO:cpu: BNE $CCEB
+INFO:cpu: LDA #00
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: TAY
+INFO:cpu: BNE $CCEB
+INFO:cpu: BCC $CCEB
+INFO:cpu: BVS $CCEB
+INFO:cpu: BMI $CCEB
+INFO:cpu: CMP #00
+INFO:cpu: BNE $CCEB
+INFO:cpu: CPX #34
+INFO:cpu: BNE $CCEB
+INFO:cpu: CPY #00
+INFO:cpu: BNE $CCEB
+INFO:cpu: JMP $CCEF
+INFO:cpu: NOP
+INFO:cpu: LDA #85
+INFO:cpu: LDX #34
+INFO:cpu: LDY #99
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: TAX
+INFO:cpu: BEQ $CD2A
+INFO:cpu: BCS $CD2A
+INFO:cpu: BVC $CD2A
+INFO:cpu: BPL $CD2A
+INFO:cpu: CMP #85
+INFO:cpu: BNE $CD2A
+INFO:cpu: CPX #85
+INFO:cpu: BNE $CD2A
+INFO:cpu: CPY #99
+INFO:cpu: BNE $CD2A
+INFO:cpu: LDA #00
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: TAX
+INFO:cpu: BNE $CD2A
+INFO:cpu: BCC $CD2A
+INFO:cpu: BVS $CD2A
+INFO:cpu: BMI $CD2A
+INFO:cpu: CMP #00
+INFO:cpu: BNE $CD2A
+INFO:cpu: CPX #00
+INFO:cpu: BNE $CD2A
+INFO:cpu: CPY #99
+INFO:cpu: BNE $CD2A
+INFO:cpu: JMP $CD2E
+INFO:cpu: NOP
+INFO:cpu: LDA #85
+INFO:cpu: LDX #34
+INFO:cpu: LDY #99
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: TYA
+INFO:cpu: BEQ $CD69
+INFO:cpu: BCS $CD69
+INFO:cpu: BVC $CD69
+INFO:cpu: BPL $CD69
+INFO:cpu: CMP #99
+INFO:cpu: BNE $CD69
+INFO:cpu: CPX #34
+INFO:cpu: BNE $CD69
+INFO:cpu: CPY #99
+INFO:cpu: BNE $CD69
+INFO:cpu: LDY #00
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: TYA
+INFO:cpu: BNE $CD69
+INFO:cpu: BCC $CD69
+INFO:cpu: BVS $CD69
+INFO:cpu: BMI $CD69
+INFO:cpu: CMP #00
+INFO:cpu: BNE $CD69
+INFO:cpu: CPX #34
+INFO:cpu: BNE $CD69
+INFO:cpu: CPY #00
+INFO:cpu: BNE $CD69
+INFO:cpu: JMP $CD6D
+INFO:cpu: NOP
+INFO:cpu: LDA #85
+INFO:cpu: LDX #34
+INFO:cpu: LDY #99
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: TXA
+INFO:cpu: BEQ $CDA8
+INFO:cpu: BCS $CDA8
+INFO:cpu: BVC $CDA8
+INFO:cpu: BMI $CDA8
+INFO:cpu: CMP #34
+INFO:cpu: BNE $CDA8
+INFO:cpu: CPX #34
+INFO:cpu: BNE $CDA8
+INFO:cpu: CPY #99
+INFO:cpu: BNE $CDA8
+INFO:cpu: LDX #00
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: TXA
+INFO:cpu: BNE $CDA8
+INFO:cpu: BCC $CDA8
+INFO:cpu: BVS $CDA8
+INFO:cpu: BMI $CDA8
+INFO:cpu: CMP #00
+INFO:cpu: BNE $CDA8
+INFO:cpu: CPX #00
+INFO:cpu: BNE $CDA8
+INFO:cpu: CPY #99
+INFO:cpu: BNE $CDA8
+INFO:cpu: JMP $CDAC
+INFO:cpu: NOP
+INFO:cpu: TSX
+INFO:cpu: STX $07FF
+INFO:cpu: LDY #33
+INFO:cpu: LDX #69
+INFO:cpu: LDA #84
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: TXS
+INFO:cpu: BEQ $CDEF
+INFO:cpu: BPL $CDEF
+INFO:cpu: BCS $CDEF
+INFO:cpu: BVC $CDEF
+INFO:cpu: CMP #84
+INFO:cpu: BNE $CDEF
+INFO:cpu: CPX #69
+INFO:cpu: BNE $CDEF
+INFO:cpu: CPY #33
+INFO:cpu: BNE $CDEF
+INFO:cpu: LDY #01
+INFO:cpu: LDA #04
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDX #00
+INFO:cpu: TSX
+INFO:cpu: BEQ $CDEF
+INFO:cpu: BMI $CDEF
+INFO:cpu: BCC $CDEF
+INFO:cpu: BVS $CDEF
+INFO:cpu: CPX #69
+INFO:cpu: BNE $CDEF
+INFO:cpu: CMP #04
+INFO:cpu: BNE $CDEF
+INFO:cpu: CPY #01
+INFO:cpu: BNE $CDEF
+INFO:cpu: JMP $CDF3
+INFO:cpu: LDX $07FF
+INFO:cpu: TXS
+INFO:cpu: RTS
+INFO:cpu: JSR $CDF8
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: TSX
+INFO:cpu: STX $07FF
+INFO:cpu: NOP
+INFO:cpu: LDX #80
+INFO:cpu: TXS
+INFO:cpu: LDA #33
+INFO:cpu: PHA
+INFO:cpu: LDA #69
+INFO:cpu: PHA
+INFO:cpu: TSX
+INFO:cpu: CPX #7E
+INFO:cpu: BNE $CE2F
+INFO:cpu: PLA
+INFO:cpu: CMP #69
+INFO:cpu: BNE $CE2F
+INFO:cpu: PLA
+INFO:cpu: CMP #33
+INFO:cpu: BNE $CE2F
+INFO:cpu: TSX
+INFO:cpu: CPX #80
+INFO:cpu: BNE $CE2F
+INFO:cpu: LDA $0180
+INFO:cpu: CMP #33
+INFO:cpu: BNE $CE2F
+INFO:cpu: LDA $017F
+INFO:cpu: CMP #69
+INFO:cpu: BNE $CE2F
+INFO:cpu: JMP $CE33
+INFO:cpu: NOP
+INFO:cpu: LDX #80
+INFO:cpu: TXS
+INFO:cpu: JSR $CE3D
+INFO:cpu: TSX
+INFO:cpu: CPX #7E
+INFO:cpu: BNE $CE5B
+INFO:cpu: PLA
+INFO:cpu: PLA
+INFO:cpu: TSX
+INFO:cpu: CPX #80
+INFO:cpu: BNE $CE5B
+INFO:cpu: LDA #00
+INFO:cpu: JSR $CE4E
+INFO:cpu: PLA
+INFO:cpu: CMP #4D
+INFO:cpu: BNE $CE5B
+INFO:cpu: PLA
+INFO:cpu: CMP #CE
+INFO:cpu: BNE $CE5B
+INFO:cpu: JMP $CE5F
+INFO:cpu: NOP
+INFO:cpu: LDA #CE
+INFO:cpu: PHA
+INFO:cpu: LDA #66
+INFO:cpu: PHA
+INFO:cpu: RTS
+INFO:cpu: LDX #77
+INFO:cpu: LDY #69
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #83
+INFO:cpu: JSR $CE66
+INFO:cpu: RTS
+INFO:cpu: BEQ $CE99
+INFO:cpu: BPL $CE99
+INFO:cpu: BCS $CE99
+INFO:cpu: BVC $CE99
+INFO:cpu: CMP #83
+INFO:cpu: BNE $CE99
+INFO:cpu: CPY #69
+INFO:cpu: BNE $CE99
+INFO:cpu: CPX #77
+INFO:cpu: BNE $CE99
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: JSR $CE66
+INFO:cpu: RTS
+INFO:cpu: BNE $CE99
+INFO:cpu: BMI $CE99
+INFO:cpu: BCC $CE99
+INFO:cpu: BVS $CE99
+INFO:cpu: JMP $CE9D
+INFO:cpu: NOP
+INFO:cpu: LDA #CE
+INFO:cpu: PHA
+INFO:cpu: LDA #AE
+INFO:cpu: PHA
+INFO:cpu: LDA #65
+INFO:cpu: PHA
+INFO:cpu: LDA #55
+INFO:cpu: LDY #88
+INFO:cpu: LDX #99
+INFO:cpu: RTI
+INFO:cpu: BMI $CEE5
+INFO:cpu: BVC $CEE5
+INFO:cpu: BEQ $CEE5
+INFO:cpu: BCC $CEE5
+INFO:cpu: CMP #55
+INFO:cpu: BNE $CEE5
+INFO:cpu: CPY #88
+INFO:cpu: BNE $CEE5
+INFO:cpu: CPX #99
+INFO:cpu: BNE $CEE5
+INFO:cpu: LDA #CE
+INFO:cpu: PHA
+INFO:cpu: LDA #CE
+INFO:cpu: PHA
+INFO:cpu: LDA #87
+INFO:cpu: PHA
+INFO:cpu: LDA #55
+INFO:cpu: RTI
+INFO:cpu: BPL $CEE5
+INFO:cpu: BVS $CEE5
+INFO:cpu: BNE $CEE5
+INFO:cpu: BCC $CEE5
+INFO:cpu: CMP #55
+INFO:cpu: BNE $CEE5
+INFO:cpu: CPY #88
+INFO:cpu: BNE $CEE5
+INFO:cpu: CPX #99
+INFO:cpu: BNE $CEE5
+INFO:cpu: JMP $CEE9
+INFO:cpu: LDX $07FF
+INFO:cpu: TXS
+INFO:cpu: RTS
+INFO:cpu: JSR $CEEE
+INFO:cpu: LDX #55
+INFO:cpu: LDY #69
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: ASR
+INFO:cpu: BCC $CF1C
+INFO:cpu: BNE $CF1C
+INFO:cpu: BMI $CF1C
+INFO:cpu: BVC $CF1C
+INFO:cpu: CMP #00
+INFO:cpu: BNE $CF1C
+INFO:cpu: CLV
+INFO:cpu: LDA #AA
+INFO:cpu: ASR
+INFO:cpu: BCS $CF1C
+INFO:cpu: BEQ $CF1C
+INFO:cpu: BMI $CF1C
+INFO:cpu: BVS $CF1C
+INFO:cpu: CMP #55
+INFO:cpu: BNE $CF1C
+INFO:cpu: JMP $CF20
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: ASL
+INFO:cpu: BCC $CF47
+INFO:cpu: BNE $CF47
+INFO:cpu: BMI $CF47
+INFO:cpu: BVC $CF47
+INFO:cpu: CMP #00
+INFO:cpu: BNE $CF47
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #55
+INFO:cpu: ASL
+INFO:cpu: BCS $CF47
+INFO:cpu: BEQ $CF47
+INFO:cpu: BPL $CF47
+INFO:cpu: BVS $CF47
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $CF47
+INFO:cpu: JMP $CF4B
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: ROR
+INFO:cpu: BCC $CF72
+INFO:cpu: BEQ $CF72
+INFO:cpu: BPL $CF72
+INFO:cpu: BVC $CF72
+INFO:cpu: CMP #80
+INFO:cpu: BNE $CF72
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: ROR
+INFO:cpu: BCC $CF72
+INFO:cpu: BEQ $CF72
+INFO:cpu: BMI $CF72
+INFO:cpu: BVS $CF72
+INFO:cpu: CMP #2A
+INFO:cpu: BNE $CF72
+INFO:cpu: JMP $CF76
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: ROL
+INFO:cpu: BCC $CF9D
+INFO:cpu: BEQ $CF9D
+INFO:cpu: BMI $CF9D
+INFO:cpu: BVC $CF9D
+INFO:cpu: CMP #01
+INFO:cpu: BNE $CF9D
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: ROL
+INFO:cpu: BCS $CF9D
+INFO:cpu: BEQ $CF9D
+INFO:cpu: BPL $CF9D
+INFO:cpu: BVS $CF9D
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $CF9D
+INFO:cpu: JMP $CFA1
+INFO:cpu: RTS
+INFO:cpu: JSR $CFA2
+INFO:cpu: LDA $00
+INFO:cpu: STA $07FF
+INFO:cpu: LDA #00
+INFO:cpu: STA $80
+INFO:cpu: LDA #02
+INFO:cpu: STA $81
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDA #00
+INFO:cpu: STA $82
+INFO:cpu: LDA #03
+INFO:cpu: STA $83
+INFO:cpu: STA $84
+INFO:cpu: LDA #00
+INFO:cpu: STA $FF
+INFO:cpu: LDA #04
+INFO:cpu: STA $00
+INFO:cpu: LDA #5A
+INFO:cpu: STA $0200
+INFO:cpu: LDA #5B
+INFO:cpu: STA $0300
+INFO:cpu: LDA #5C
+INFO:cpu: STA $0303
+INFO:cpu: LDA #5D
+INFO:cpu: STA $0400
+INFO:cpu: LDX #00
+INFO:cpu: LDA ($80,X)
+INFO:cpu: CMP #5A
+INFO:cpu: BNE $D000
+INFO:cpu: INX
+INFO:cpu: INX
+INFO:cpu: LDA ($80,X)
+INFO:cpu: CMP #5B
+INFO:cpu: BNE $D000
+INFO:cpu: INX
+INFO:cpu: LDA ($80,X)
+INFO:cpu: CMP #5C
+INFO:cpu: BNE $D000
+INFO:cpu: LDX #00
+INFO:cpu: LDA ($FF,X)
+INFO:cpu: CMP #5D
+INFO:cpu: BNE $D000
+INFO:cpu: LDX #81
+INFO:cpu: LDA ($FF,X)
+INFO:cpu: CMP #5A
+INFO:cpu: BEQ $D005
+INFO:cpu: LDA #AA
+INFO:cpu: LDX #00
+INFO:cpu: STA ($80,X)
+INFO:cpu: INX
+INFO:cpu: INX
+INFO:cpu: LDA #AB
+INFO:cpu: STA ($80,X)
+INFO:cpu: INX
+INFO:cpu: LDA #AC
+INFO:cpu: STA ($80,X)
+INFO:cpu: LDX #00
+INFO:cpu: LDA #AD
+INFO:cpu: STA ($FF,X)
+INFO:cpu: LDA $0200
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $D038
+INFO:cpu: LDA $0300
+INFO:cpu: CMP #AB
+INFO:cpu: BNE $D038
+INFO:cpu: LDA $0303
+INFO:cpu: CMP #AC
+INFO:cpu: BNE $D038
+INFO:cpu: LDA $0400
+INFO:cpu: CMP #AD
+INFO:cpu: BEQ $D03D
+INFO:cpu: LDA $07FF
+INFO:cpu: STA $00
+INFO:cpu: LDA #00
+INFO:cpu: STA $0300
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0200
+INFO:cpu: LDX #00
+INFO:cpu: LDY #5A
+INFO:cpu: JSR $F7B6
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: ORA ($80,X)
+INFO:cpu: JSR $F7C0
+INFO:cpu: BCS $F7CB
+INFO:cpu: BPL $F7CB
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F7CB
+INFO:cpu: BVC $F7CB
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F7CE
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ORA ($82,X)
+INFO:cpu: JSR $F7D3
+INFO:cpu: BNE $F7DC
+INFO:cpu: BVS $F7DC
+INFO:cpu: BCC $F7DC
+INFO:cpu: BMI $F7DC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F7DF
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: AND ($80,X)
+INFO:cpu: JSR $F7E5
+INFO:cpu: BNE $F7EE
+INFO:cpu: BVC $F7EE
+INFO:cpu: BCS $F7EE
+INFO:cpu: BMI $F7EE
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #EF
+INFO:cpu: STA $0300
+INFO:cpu: JSR $F7F1
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #F8
+INFO:cpu: RTS
+INFO:cpu: AND ($82,X)
+INFO:cpu: JSR $F7F6
+INFO:cpu: BCC $F801
+INFO:cpu: BPL $F801
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $F801
+INFO:cpu: BVS $F801
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F804
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #5F
+INFO:cpu: RTS
+INFO:cpu: EOR ($80,X)
+INFO:cpu: JSR $F80A
+INFO:cpu: BCS $F815
+INFO:cpu: BPL $F815
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $F815
+INFO:cpu: BVC $F815
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #70
+INFO:cpu: STA $0300
+INFO:cpu: JSR $F818
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: RTS
+INFO:cpu: EOR ($82,X)
+INFO:cpu: JSR $F81D
+INFO:cpu: BNE $F826
+INFO:cpu: BVS $F826
+INFO:cpu: BCC $F826
+INFO:cpu: BMI $F826
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #69
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F829
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC ($80,X)
+INFO:cpu: JSR $F82F
+INFO:cpu: BMI $F83A
+INFO:cpu: BCS $F83A
+INFO:cpu: CMP #69
+INFO:cpu: BNE $F83A
+INFO:cpu: BVS $F83A
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F83D
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC ($80,X)
+INFO:cpu: JSR $F843
+INFO:cpu: BMI $F84E
+INFO:cpu: BCS $F84E
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $F84E
+INFO:cpu: BVS $F84E
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F851
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC ($80,X)
+INFO:cpu: JSR $F856
+INFO:cpu: BPL $F861
+INFO:cpu: BCS $F861
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F861
+INFO:cpu: BVC $F861
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F864
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC ($80,X)
+INFO:cpu: JSR $F86A
+INFO:cpu: BPL $F875
+INFO:cpu: BCS $F875
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F875
+INFO:cpu: BVS $F875
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F878
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC ($80,X)
+INFO:cpu: JSR $F87D
+INFO:cpu: BNE $F886
+INFO:cpu: BMI $F886
+INFO:cpu: BVS $F886
+INFO:cpu: BCC $F886
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0200
+INFO:cpu: PLA
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #41
+INFO:cpu: STA $0200
+INFO:cpu: PLA
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #00
+INFO:cpu: STA $0200
+INFO:cpu: PLA
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #80
+INFO:cpu: STA $0200
+INFO:cpu: PLA
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #81
+INFO:cpu: STA $0200
+INFO:cpu: PLA
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0200
+INFO:cpu: PLA
+INFO:cpu: CMP ($80,X)
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC ($80,X)
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC ($80,X)
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC ($80,X)
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC ($80,X)
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0200
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC ($80,X)
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: RTS
+INFO:cpu: JSR $D174
+INFO:cpu: LDA #55
+INFO:cpu: STA $78
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDY #11
+INFO:cpu: LDX #23
+INFO:cpu: LDA #00
+INFO:cpu: LDA $78
+INFO:cpu: BEQ $D198
+INFO:cpu: BMI $D198
+INFO:cpu: CMP #55
+INFO:cpu: BNE $D198
+INFO:cpu: CPY #11
+INFO:cpu: BNE $D198
+INFO:cpu: CPX #23
+INFO:cpu: BVC $D198
+INFO:cpu: BEQ $D19C
+INFO:cpu: LDA #46
+INFO:cpu: BIT $01
+INFO:cpu: STA $78
+INFO:cpu: BEQ $D1AE
+INFO:cpu: BPL $D1AE
+INFO:cpu: BVC $D1AE
+INFO:cpu: LDA $78
+INFO:cpu: CMP #46
+INFO:cpu: BEQ $D1B2
+INFO:cpu: LDA #55
+INFO:cpu: STA $78
+INFO:cpu: BIT $01
+INFO:cpu: LDA #11
+INFO:cpu: LDX #23
+INFO:cpu: LDY #00
+INFO:cpu: LDY $78
+INFO:cpu: BEQ $D1D2
+INFO:cpu: BMI $D1D2
+INFO:cpu: CPY #55
+INFO:cpu: BNE $D1D2
+INFO:cpu: CMP #11
+INFO:cpu: BNE $D1D2
+INFO:cpu: CPX #23
+INFO:cpu: BVC $D1D2
+INFO:cpu: BEQ $D1D6
+INFO:cpu: LDY #46
+INFO:cpu: BIT $01
+INFO:cpu: STY $78
+INFO:cpu: BEQ $D1E8
+INFO:cpu: BPL $D1E8
+INFO:cpu: BVC $D1E8
+INFO:cpu: LDY $78
+INFO:cpu: CPY #46
+INFO:cpu: BEQ $D1EC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: STA $78
+INFO:cpu: LDY #11
+INFO:cpu: LDA #23
+INFO:cpu: LDX #00
+INFO:cpu: LDX $78
+INFO:cpu: BEQ $D20C
+INFO:cpu: BMI $D20C
+INFO:cpu: CPX #55
+INFO:cpu: BNE $D20C
+INFO:cpu: CPY #11
+INFO:cpu: BNE $D20C
+INFO:cpu: CMP #23
+INFO:cpu: BVC $D20C
+INFO:cpu: BEQ $D210
+INFO:cpu: LDX #46
+INFO:cpu: BIT $01
+INFO:cpu: STX $78
+INFO:cpu: BEQ $D222
+INFO:cpu: BPL $D222
+INFO:cpu: BVC $D222
+INFO:cpu: LDX $78
+INFO:cpu: CPX #46
+INFO:cpu: BEQ $D226
+INFO:cpu: LDA #C0
+INFO:cpu: STA $78
+INFO:cpu: LDX #33
+INFO:cpu: LDY #88
+INFO:cpu: LDA #05
+INFO:cpu: BIT $78
+INFO:cpu: BPL $D244
+INFO:cpu: BVC $D244
+INFO:cpu: BNE $D244
+INFO:cpu: CMP #05
+INFO:cpu: BNE $D244
+INFO:cpu: CPX #33
+INFO:cpu: BNE $D244
+INFO:cpu: CPY #88
+INFO:cpu: BEQ $D248
+INFO:cpu: LDA #03
+INFO:cpu: STA $78
+INFO:cpu: LDA #01
+INFO:cpu: BIT $78
+INFO:cpu: BMI $D25A
+INFO:cpu: BVS $D25A
+INFO:cpu: BEQ $D25A
+INFO:cpu: CMP #01
+INFO:cpu: BEQ $D25E
+INFO:cpu: LDY #7E
+INFO:cpu: LDA #AA
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7B6
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: ORA $78
+INFO:cpu: JSR $F7C0
+INFO:cpu: BCS $F7CB
+INFO:cpu: BPL $F7CB
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F7CB
+INFO:cpu: BVC $F7CB
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7CE
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ORA $78
+INFO:cpu: JSR $F7D3
+INFO:cpu: BNE $F7DC
+INFO:cpu: BVS $F7DC
+INFO:cpu: BCC $F7DC
+INFO:cpu: BMI $F7DC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7DF
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: AND $78
+INFO:cpu: JSR $F7E5
+INFO:cpu: BNE $F7EE
+INFO:cpu: BVC $F7EE
+INFO:cpu: BCS $F7EE
+INFO:cpu: BMI $F7EE
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #EF
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7F1
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #F8
+INFO:cpu: RTS
+INFO:cpu: AND $78
+INFO:cpu: JSR $F7F6
+INFO:cpu: BCC $F801
+INFO:cpu: BPL $F801
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $F801
+INFO:cpu: BVS $F801
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $78
+INFO:cpu: JSR $F804
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #5F
+INFO:cpu: RTS
+INFO:cpu: EOR $78
+INFO:cpu: JSR $F80A
+INFO:cpu: BCS $F815
+INFO:cpu: BPL $F815
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $F815
+INFO:cpu: BVC $F815
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #70
+INFO:cpu: STA $78
+INFO:cpu: JSR $F818
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: RTS
+INFO:cpu: EOR $78
+INFO:cpu: JSR $F81D
+INFO:cpu: BNE $F826
+INFO:cpu: BVS $F826
+INFO:cpu: BCC $F826
+INFO:cpu: BMI $F826
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #69
+INFO:cpu: STA $78
+INFO:cpu: JSR $F829
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $78
+INFO:cpu: JSR $F82F
+INFO:cpu: BMI $F83A
+INFO:cpu: BCS $F83A
+INFO:cpu: CMP #69
+INFO:cpu: BNE $F83A
+INFO:cpu: BVS $F83A
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F83D
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $78
+INFO:cpu: JSR $F843
+INFO:cpu: BMI $F84E
+INFO:cpu: BCS $F84E
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $F84E
+INFO:cpu: BVS $F84E
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F851
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $78
+INFO:cpu: JSR $F856
+INFO:cpu: BPL $F861
+INFO:cpu: BCS $F861
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F861
+INFO:cpu: BVC $F861
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: JSR $F864
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $78
+INFO:cpu: JSR $F86A
+INFO:cpu: BPL $F875
+INFO:cpu: BCS $F875
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F875
+INFO:cpu: BVS $F875
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F878
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $78
+INFO:cpu: JSR $F87D
+INFO:cpu: BNE $F886
+INFO:cpu: BMI $F886
+INFO:cpu: BVS $F886
+INFO:cpu: BCC $F886
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $78
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #3F
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #41
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #81
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $78
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $78
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC $78
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC $78
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $78
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC $78
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC $78
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC $78
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $78
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: TAX
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $78
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: TAX
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #81
+INFO:cpu: STA $78
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: CPX $78
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: TYA
+INFO:cpu: TAX
+INFO:cpu: LDA #40
+INFO:cpu: STA $78
+INFO:cpu: JSR $F8DD
+INFO:cpu: BIT $01
+INFO:cpu: LDY #40
+INFO:cpu: RTS
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F8E2
+INFO:cpu: BMI $F8EB
+INFO:cpu: BCC $F8EB
+INFO:cpu: BNE $F8EB
+INFO:cpu: BVC $F8EB
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #3F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F8EE
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F8F0
+INFO:cpu: BEQ $F8F9
+INFO:cpu: BMI $F8F9
+INFO:cpu: BCC $F8F9
+INFO:cpu: BVS $F8F9
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #41
+INFO:cpu: STA $78
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F8FC
+INFO:cpu: BEQ $F903
+INFO:cpu: BPL $F903
+INFO:cpu: BPL $F903
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: JSR $F906
+INFO:cpu: LDY #80
+INFO:cpu: RTS
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F909
+INFO:cpu: BEQ $F910
+INFO:cpu: BPL $F910
+INFO:cpu: BCC $F910
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F913
+INFO:cpu: BNE $F91A
+INFO:cpu: BMI $F91A
+INFO:cpu: BCC $F91A
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #81
+INFO:cpu: STA $78
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F91D
+INFO:cpu: BCS $F924
+INFO:cpu: BEQ $F924
+INFO:cpu: BPL $F924
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: CPY $78
+INFO:cpu: JSR $F927
+INFO:cpu: BCC $F92E
+INFO:cpu: BEQ $F92E
+INFO:cpu: BMI $F92E
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: TXA
+INFO:cpu: TAY
+INFO:cpu: JSR $F990
+INFO:cpu: LDX #55
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $78
+INFO:cpu: ASR $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $F99D
+INFO:cpu: BCC $F9BA
+INFO:cpu: BNE $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVC $F9BA
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9BA
+INFO:cpu: CLV
+INFO:cpu: LDA #AA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $78
+INFO:cpu: ASR $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $F9AD
+INFO:cpu: BCS $F9BA
+INFO:cpu: BEQ $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVS $F9BA
+INFO:cpu: CMP #55
+INFO:cpu: BNE $F9BA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9BD
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $78
+INFO:cpu: ASL $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $F9C3
+INFO:cpu: BCC $F9E1
+INFO:cpu: BNE $F9E1
+INFO:cpu: BMI $F9E1
+INFO:cpu: BVC $F9E1
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9E1
+INFO:cpu: CLV
+INFO:cpu: LDA #55
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $78
+INFO:cpu: ASL $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $F9D4
+INFO:cpu: BCS $F9E1
+INFO:cpu: BEQ $F9E1
+INFO:cpu: BPL $F9E1
+INFO:cpu: BVS $F9E1
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $F9E1
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9E4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $78
+INFO:cpu: ROR $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $F9EA
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BPL $FA08
+INFO:cpu: BVC $FA08
+INFO:cpu: CMP #80
+INFO:cpu: BNE $FA08
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $78
+INFO:cpu: ROR $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $F9FB
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BMI $FA08
+INFO:cpu: BVS $FA08
+INFO:cpu: CMP #2A
+INFO:cpu: BNE $FA08
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $FA0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $78
+INFO:cpu: ROL $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $FA10
+INFO:cpu: BCC $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BMI $FA2E
+INFO:cpu: BVC $FA2E
+INFO:cpu: CMP #01
+INFO:cpu: BNE $FA2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $78
+INFO:cpu: ROL $78
+INFO:cpu: LDA $78
+INFO:cpu: JSR $FA21
+INFO:cpu: BCS $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BPL $FA2E
+INFO:cpu: BVS $FA2E
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $FA2E
+INFO:cpu: RTS
+INFO:cpu: LDA #FF
+INFO:cpu: STA $78
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: INC $78
+INFO:cpu: BNE $D49B
+INFO:cpu: BMI $D49B
+INFO:cpu: BVC $D49B
+INFO:cpu: BCC $D49B
+INFO:cpu: LDA $78
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $D49F
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: INC $78
+INFO:cpu: BEQ $D4B5
+INFO:cpu: BPL $D4B5
+INFO:cpu: BVS $D4B5
+INFO:cpu: BCS $D4B5
+INFO:cpu: LDA $78
+INFO:cpu: CMP #80
+INFO:cpu: BEQ $D4B9
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: DEC $78
+INFO:cpu: BEQ $D4D0
+INFO:cpu: BPL $D4D0
+INFO:cpu: BVC $D4D0
+INFO:cpu: BCC $D4D0
+INFO:cpu: LDA $78
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $D4D4
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: DEC $78
+INFO:cpu: BEQ $D4EA
+INFO:cpu: BMI $D4EA
+INFO:cpu: BVS $D4EA
+INFO:cpu: BCS $D4EA
+INFO:cpu: LDA $78
+INFO:cpu: CMP #7F
+INFO:cpu: BEQ $D4EE
+INFO:cpu: LDA #01
+INFO:cpu: STA $78
+INFO:cpu: DEC $78
+INFO:cpu: BEQ $D4FA
+INFO:cpu: RTS
+INFO:cpu: JSR $D4FB
+INFO:cpu: LDA #55
+INFO:cpu: STA $0678
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDY #11
+INFO:cpu: LDX #23
+INFO:cpu: LDA #00
+INFO:cpu: LDA $0678
+INFO:cpu: BEQ $D521
+INFO:cpu: BMI $D521
+INFO:cpu: CMP #55
+INFO:cpu: BNE $D521
+INFO:cpu: CPY #11
+INFO:cpu: BNE $D521
+INFO:cpu: CPX #23
+INFO:cpu: BVC $D521
+INFO:cpu: BEQ $D525
+INFO:cpu: LDA #46
+INFO:cpu: BIT $01
+INFO:cpu: STA $0678
+INFO:cpu: BEQ $D539
+INFO:cpu: BPL $D539
+INFO:cpu: BVC $D539
+INFO:cpu: LDA $0678
+INFO:cpu: CMP #46
+INFO:cpu: BEQ $D53D
+INFO:cpu: LDA #55
+INFO:cpu: STA $0678
+INFO:cpu: BIT $01
+INFO:cpu: LDA #11
+INFO:cpu: LDX #23
+INFO:cpu: LDY #00
+INFO:cpu: LDY $0678
+INFO:cpu: BEQ $D55F
+INFO:cpu: BMI $D55F
+INFO:cpu: CPY #55
+INFO:cpu: BNE $D55F
+INFO:cpu: CMP #11
+INFO:cpu: BNE $D55F
+INFO:cpu: CPX #23
+INFO:cpu: BVC $D55F
+INFO:cpu: BEQ $D563
+INFO:cpu: LDY #46
+INFO:cpu: BIT $01
+INFO:cpu: STY $0678
+INFO:cpu: BEQ $D577
+INFO:cpu: BPL $D577
+INFO:cpu: BVC $D577
+INFO:cpu: LDY $0678
+INFO:cpu: CPY #46
+INFO:cpu: BEQ $D57B
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: STA $0678
+INFO:cpu: LDY #11
+INFO:cpu: LDA #23
+INFO:cpu: LDX #00
+INFO:cpu: LDX $0678
+INFO:cpu: BEQ $D59D
+INFO:cpu: BMI $D59D
+INFO:cpu: CPX #55
+INFO:cpu: BNE $D59D
+INFO:cpu: CPY #11
+INFO:cpu: BNE $D59D
+INFO:cpu: CMP #23
+INFO:cpu: BVC $D59D
+INFO:cpu: BEQ $D5A1
+INFO:cpu: LDX #46
+INFO:cpu: BIT $01
+INFO:cpu: STX $0678
+INFO:cpu: BEQ $D5B5
+INFO:cpu: BPL $D5B5
+INFO:cpu: BVC $D5B5
+INFO:cpu: LDX $0678
+INFO:cpu: CPX #46
+INFO:cpu: BEQ $D5B9
+INFO:cpu: LDA #C0
+INFO:cpu: STA $0678
+INFO:cpu: LDX #33
+INFO:cpu: LDY #88
+INFO:cpu: LDA #05
+INFO:cpu: BIT $0678
+INFO:cpu: BPL $D5D9
+INFO:cpu: BVC $D5D9
+INFO:cpu: BNE $D5D9
+INFO:cpu: CMP #05
+INFO:cpu: BNE $D5D9
+INFO:cpu: CPX #33
+INFO:cpu: BNE $D5D9
+INFO:cpu: CPY #88
+INFO:cpu: BEQ $D5DD
+INFO:cpu: LDA #03
+INFO:cpu: STA $0678
+INFO:cpu: LDA #01
+INFO:cpu: BIT $0678
+INFO:cpu: BMI $D5F1
+INFO:cpu: BVS $D5F1
+INFO:cpu: BEQ $D5F1
+INFO:cpu: CMP #01
+INFO:cpu: BEQ $D5F5
+INFO:cpu: LDY #B8
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7B6
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: ORA $0678
+INFO:cpu: JSR $F7C0
+INFO:cpu: BCS $F7CB
+INFO:cpu: BPL $F7CB
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F7CB
+INFO:cpu: BVC $F7CB
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7CE
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ORA $0678
+INFO:cpu: JSR $F7D3
+INFO:cpu: BNE $F7DC
+INFO:cpu: BVS $F7DC
+INFO:cpu: BCC $F7DC
+INFO:cpu: BMI $F7DC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7DF
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: AND $0678
+INFO:cpu: JSR $F7E5
+INFO:cpu: BNE $F7EE
+INFO:cpu: BVC $F7EE
+INFO:cpu: BCS $F7EE
+INFO:cpu: BMI $F7EE
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #EF
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7F1
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #F8
+INFO:cpu: RTS
+INFO:cpu: AND $0678
+INFO:cpu: JSR $F7F6
+INFO:cpu: BCC $F801
+INFO:cpu: BPL $F801
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $F801
+INFO:cpu: BVS $F801
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F804
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #5F
+INFO:cpu: RTS
+INFO:cpu: EOR $0678
+INFO:cpu: JSR $F80A
+INFO:cpu: BCS $F815
+INFO:cpu: BPL $F815
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $F815
+INFO:cpu: BVC $F815
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #70
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F818
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: RTS
+INFO:cpu: EOR $0678
+INFO:cpu: JSR $F81D
+INFO:cpu: BNE $F826
+INFO:cpu: BVS $F826
+INFO:cpu: BCC $F826
+INFO:cpu: BMI $F826
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #69
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F829
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $0678
+INFO:cpu: JSR $F82F
+INFO:cpu: BMI $F83A
+INFO:cpu: BCS $F83A
+INFO:cpu: CMP #69
+INFO:cpu: BNE $F83A
+INFO:cpu: BVS $F83A
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F83D
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $0678
+INFO:cpu: JSR $F843
+INFO:cpu: BMI $F84E
+INFO:cpu: BCS $F84E
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $F84E
+INFO:cpu: BVS $F84E
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F851
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $0678
+INFO:cpu: JSR $F856
+INFO:cpu: BPL $F861
+INFO:cpu: BCS $F861
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F861
+INFO:cpu: BVC $F861
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F864
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $0678
+INFO:cpu: JSR $F86A
+INFO:cpu: BPL $F875
+INFO:cpu: BCS $F875
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F875
+INFO:cpu: BVS $F875
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F878
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $0678
+INFO:cpu: JSR $F87D
+INFO:cpu: BNE $F886
+INFO:cpu: BMI $F886
+INFO:cpu: BVS $F886
+INFO:cpu: BCC $F886
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #41
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #81
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0678
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC $0678
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC $0678
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC $0678
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC $0678
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC $0678
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: TAX
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $0678
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: TAX
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #81
+INFO:cpu: STA $0678
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: CPX $0678
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: TYA
+INFO:cpu: TAX
+INFO:cpu: LDA #40
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F8DD
+INFO:cpu: BIT $01
+INFO:cpu: LDY #40
+INFO:cpu: RTS
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F8E2
+INFO:cpu: BMI $F8EB
+INFO:cpu: BCC $F8EB
+INFO:cpu: BNE $F8EB
+INFO:cpu: BVC $F8EB
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F8EE
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F8F0
+INFO:cpu: BEQ $F8F9
+INFO:cpu: BMI $F8F9
+INFO:cpu: BCC $F8F9
+INFO:cpu: BVS $F8F9
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #41
+INFO:cpu: STA $0678
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F8FC
+INFO:cpu: BEQ $F903
+INFO:cpu: BPL $F903
+INFO:cpu: BPL $F903
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F906
+INFO:cpu: LDY #80
+INFO:cpu: RTS
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F909
+INFO:cpu: BEQ $F910
+INFO:cpu: BPL $F910
+INFO:cpu: BCC $F910
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F913
+INFO:cpu: BNE $F91A
+INFO:cpu: BMI $F91A
+INFO:cpu: BCC $F91A
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #81
+INFO:cpu: STA $0678
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F91D
+INFO:cpu: BCS $F924
+INFO:cpu: BEQ $F924
+INFO:cpu: BPL $F924
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: CPY $0678
+INFO:cpu: JSR $F927
+INFO:cpu: BCC $F92E
+INFO:cpu: BEQ $F92E
+INFO:cpu: BMI $F92E
+INFO:cpu: RTS
+INFO:cpu: INX
+INFO:cpu: TXA
+INFO:cpu: TAY
+INFO:cpu: JSR $F990
+INFO:cpu: LDX #55
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $0678
+INFO:cpu: ASR $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $F99D
+INFO:cpu: BCC $F9BA
+INFO:cpu: BNE $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVC $F9BA
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9BA
+INFO:cpu: CLV
+INFO:cpu: LDA #AA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0678
+INFO:cpu: ASR $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $F9AD
+INFO:cpu: BCS $F9BA
+INFO:cpu: BEQ $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVS $F9BA
+INFO:cpu: CMP #55
+INFO:cpu: BNE $F9BA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9BD
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $0678
+INFO:cpu: ASL $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $F9C3
+INFO:cpu: BCC $F9E1
+INFO:cpu: BNE $F9E1
+INFO:cpu: BMI $F9E1
+INFO:cpu: BVC $F9E1
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9E1
+INFO:cpu: CLV
+INFO:cpu: LDA #55
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0678
+INFO:cpu: ASL $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $F9D4
+INFO:cpu: BCS $F9E1
+INFO:cpu: BEQ $F9E1
+INFO:cpu: BPL $F9E1
+INFO:cpu: BVS $F9E1
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $F9E1
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9E4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $0678
+INFO:cpu: ROR $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $F9EA
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BPL $FA08
+INFO:cpu: BVC $FA08
+INFO:cpu: CMP #80
+INFO:cpu: BNE $FA08
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0678
+INFO:cpu: ROR $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $F9FB
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BMI $FA08
+INFO:cpu: BVS $FA08
+INFO:cpu: CMP #2A
+INFO:cpu: BNE $FA08
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $FA0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $0678
+INFO:cpu: ROL $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $FA10
+INFO:cpu: BCC $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BMI $FA2E
+INFO:cpu: BVC $FA2E
+INFO:cpu: CMP #01
+INFO:cpu: BNE $FA2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0678
+INFO:cpu: ROL $0678
+INFO:cpu: LDA $0678
+INFO:cpu: JSR $FA21
+INFO:cpu: BCS $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BPL $FA2E
+INFO:cpu: BVS $FA2E
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $FA2E
+INFO:cpu: RTS
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0678
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: INC $0678
+INFO:cpu: BNE $D895
+INFO:cpu: BMI $D895
+INFO:cpu: BVC $D895
+INFO:cpu: BCC $D895
+INFO:cpu: LDA $0678
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $D899
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: INC $0678
+INFO:cpu: BEQ $D8B2
+INFO:cpu: BPL $D8B2
+INFO:cpu: BVS $D8B2
+INFO:cpu: BCS $D8B2
+INFO:cpu: LDA $0678
+INFO:cpu: CMP #80
+INFO:cpu: BEQ $D8B6
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: DEC $0678
+INFO:cpu: BEQ $D8D0
+INFO:cpu: BPL $D8D0
+INFO:cpu: BVC $D8D0
+INFO:cpu: BCC $D8D0
+INFO:cpu: LDA $0678
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $D8D4
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: DEC $0678
+INFO:cpu: BEQ $D8ED
+INFO:cpu: BMI $D8ED
+INFO:cpu: BVS $D8ED
+INFO:cpu: BCS $D8ED
+INFO:cpu: LDA $0678
+INFO:cpu: CMP #7F
+INFO:cpu: BEQ $D8F1
+INFO:cpu: LDA #01
+INFO:cpu: STA $0678
+INFO:cpu: DEC $0678
+INFO:cpu: BEQ $D8FF
+INFO:cpu: RTS
+INFO:cpu: JSR $D900
+INFO:cpu: LDA #A3
+INFO:cpu: STA $33
+INFO:cpu: LDA #89
+INFO:cpu: STA $0300
+INFO:cpu: LDA #12
+INFO:cpu: STA $0245
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDX #65
+INFO:cpu: LDA #00
+INFO:cpu: STA $89
+INFO:cpu: LDA #03
+INFO:cpu: STA $8A
+INFO:cpu: LDY #00
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: CLV
+INFO:cpu: LDA ($89),Y
+INFO:cpu: BEQ $D932
+INFO:cpu: BCC $D932
+INFO:cpu: BVS $D932
+INFO:cpu: CMP #89
+INFO:cpu: BNE $D932
+INFO:cpu: CPX #65
+INFO:cpu: BEQ $D936
+INFO:cpu: LDA #FF
+INFO:cpu: STA $97
+INFO:cpu: STA $98
+INFO:cpu: BIT $98
+INFO:cpu: LDY #34
+INFO:cpu: LDA ($97),Y
+INFO:cpu: CMP #A3
+INFO:cpu: BNE $D948
+INFO:cpu: BCS $D94C
+INFO:cpu: LDA $00
+INFO:cpu: PHA
+INFO:cpu: LDA #46
+INFO:cpu: STA $FF
+INFO:cpu: LDA #01
+INFO:cpu: STA $00
+INFO:cpu: LDY #FF
+INFO:cpu: LDA ($FF),Y
+INFO:cpu: CMP #12
+INFO:cpu: BEQ $D963
+INFO:cpu: PLA
+INFO:cpu: STA $00
+INFO:cpu: LDX #ED
+INFO:cpu: LDA #00
+INFO:cpu: STA $33
+INFO:cpu: LDA #04
+INFO:cpu: STA $34
+INFO:cpu: LDY #00
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0400
+INFO:cpu: LDA #55
+INFO:cpu: ORA ($33),Y
+INFO:cpu: BCS $D98C
+INFO:cpu: BPL $D98C
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $D98C
+INFO:cpu: BVS $D98E
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: ORA ($33),Y
+INFO:cpu: BEQ $D99D
+INFO:cpu: BVS $D99D
+INFO:cpu: BCC $D99D
+INFO:cpu: BMI $D99F
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: AND ($33),Y
+INFO:cpu: BNE $D9AF
+INFO:cpu: BVC $D9AF
+INFO:cpu: BCS $D9AF
+INFO:cpu: BPL $D9B1
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #EF
+INFO:cpu: STA $0400
+INFO:cpu: LDA #F8
+INFO:cpu: AND ($33),Y
+INFO:cpu: BCC $D9C7
+INFO:cpu: BPL $D9C7
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $D9C7
+INFO:cpu: BVC $D9C9
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0400
+INFO:cpu: LDA #5F
+INFO:cpu: EOR ($33),Y
+INFO:cpu: BCS $D9E0
+INFO:cpu: BPL $D9E0
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $D9E0
+INFO:cpu: BVS $D9E2
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: STA $0400
+INFO:cpu: EOR ($33),Y
+INFO:cpu: BNE $D9F4
+INFO:cpu: BVS $D9F4
+INFO:cpu: BCC $D9F4
+INFO:cpu: BPL $D9F6
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #69
+INFO:cpu: STA $0400
+INFO:cpu: LDA #00
+INFO:cpu: ADC ($33),Y
+INFO:cpu: BMI $DA0D
+INFO:cpu: BCS $DA0D
+INFO:cpu: CMP #69
+INFO:cpu: BNE $DA0D
+INFO:cpu: BVC $DA0F
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: ADC ($33),Y
+INFO:cpu: BMI $DA21
+INFO:cpu: BCS $DA21
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $DA21
+INFO:cpu: BVC $DA23
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0400
+INFO:cpu: ADC ($33),Y
+INFO:cpu: BPL $DA37
+INFO:cpu: BCS $DA37
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $DA37
+INFO:cpu: BVS $DA39
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #80
+INFO:cpu: STA $0400
+INFO:cpu: LDA #7F
+INFO:cpu: ADC ($33),Y
+INFO:cpu: BPL $DA50
+INFO:cpu: BCS $DA50
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $DA50
+INFO:cpu: BVC $DA52
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #80
+INFO:cpu: STA $0400
+INFO:cpu: LDA #7F
+INFO:cpu: ADC ($33),Y
+INFO:cpu: BNE $DA66
+INFO:cpu: BMI $DA66
+INFO:cpu: BVS $DA66
+INFO:cpu: BCS $DA68
+INFO:cpu: INX
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: STA $0400
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BMI $DA7A
+INFO:cpu: BCC $DA7A
+INFO:cpu: BNE $DA7A
+INFO:cpu: BVS $DA7C
+INFO:cpu: INX
+INFO:cpu: CLV
+INFO:cpu: DEC $0400
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BEQ $DA8B
+INFO:cpu: BMI $DA8B
+INFO:cpu: BCC $DA8B
+INFO:cpu: BVC $DA8D
+INFO:cpu: INX
+INFO:cpu: INC $0400
+INFO:cpu: INC $0400
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BEQ $DA9A
+INFO:cpu: BMI $DA9C
+INFO:cpu: INX
+INFO:cpu: LDA #00
+INFO:cpu: STA $0400
+INFO:cpu: LDA #80
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BEQ $DAAC
+INFO:cpu: BPL $DAAC
+INFO:cpu: BCS $DAAE
+INFO:cpu: INX
+INFO:cpu: LDY #80
+INFO:cpu: STY $0400
+INFO:cpu: LDY #00
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BNE $DABE
+INFO:cpu: BMI $DABE
+INFO:cpu: BCS $DAC0
+INFO:cpu: INX
+INFO:cpu: INC $0400
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BCS $DACC
+INFO:cpu: BEQ $DACC
+INFO:cpu: BMI $DACE
+INFO:cpu: INX
+INFO:cpu: DEC $0400
+INFO:cpu: DEC $0400
+INFO:cpu: CMP ($33),Y
+INFO:cpu: BCC $DADD
+INFO:cpu: BEQ $DADD
+INFO:cpu: BPL $DADF
+INFO:cpu: RTS
+INFO:cpu: LDA $00
+INFO:cpu: STA $10
+INFO:cpu: LDA #00
+INFO:cpu: STA $00
+INFO:cpu: JSR $DAE0
+INFO:cpu: LDA #00
+INFO:cpu: STA $33
+INFO:cpu: LDA #04
+INFO:cpu: STA $34
+INFO:cpu: LDY #00
+INFO:cpu: LDX #01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: STA $0400
+INFO:cpu: SEC
+INFO:cpu: SBC ($33),Y
+INFO:cpu: BMI $DB02
+INFO:cpu: BCC $DB02
+INFO:cpu: BNE $DB02
+INFO:cpu: BVS $DB02
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $DB04
+INFO:cpu: INX
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: DEC $0400
+INFO:cpu: SBC ($33),Y
+INFO:cpu: BEQ $DB1A
+INFO:cpu: BMI $DB1A
+INFO:cpu: BCC $DB1A
+INFO:cpu: BVS $DB1A
+INFO:cpu: CMP #01
+INFO:cpu: BEQ $DB1C
+INFO:cpu: INX
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: INC $0400
+INFO:cpu: INC $0400
+INFO:cpu: SBC ($33),Y
+INFO:cpu: BCS $DB36
+INFO:cpu: BEQ $DB36
+INFO:cpu: BPL $DB36
+INFO:cpu: BVS $DB36
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $DB38
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: STA $0400
+INFO:cpu: LDA #80
+INFO:cpu: SBC ($33),Y
+INFO:cpu: BCC $DB49
+INFO:cpu: CMP #7F
+INFO:cpu: BEQ $DB4B
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0400
+INFO:cpu: LDA #81
+INFO:cpu: SBC ($33),Y
+INFO:cpu: BVC $DB5E
+INFO:cpu: BCC $DB5E
+INFO:cpu: CMP #02
+INFO:cpu: BEQ $DB60
+INFO:cpu: INX
+INFO:cpu: LDA #00
+INFO:cpu: LDA #87
+INFO:cpu: STA ($33),Y
+INFO:cpu: LDA $0400
+INFO:cpu: CMP #87
+INFO:cpu: BEQ $DB70
+INFO:cpu: INX
+INFO:cpu: LDA #7E
+INFO:cpu: STA $0200
+INFO:cpu: LDA #DB
+INFO:cpu: STA $0201
+INFO:cpu: JMP ($0200)
+INFO:cpu: LDA #00
+INFO:cpu: STA $02FF
+INFO:cpu: LDA #01
+INFO:cpu: STA $0300
+INFO:cpu: LDA #03
+INFO:cpu: STA $0200
+INFO:cpu: LDA #A9
+INFO:cpu: STA $0100
+INFO:cpu: LDA #55
+INFO:cpu: STA $0101
+INFO:cpu: LDA #60
+INFO:cpu: STA $0102
+INFO:cpu: LDA #A9
+INFO:cpu: STA $0300
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0301
+INFO:cpu: LDA #60
+INFO:cpu: STA $0302
+INFO:cpu: JSR $DBB5
+INFO:cpu: JMP ($02FF)
+INFO:cpu: LDA #AA
+INFO:cpu: RTS
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $DBB4
+INFO:cpu: RTS
+INFO:cpu: JSR $DF4A
+INFO:cpu: LDA #89
+INFO:cpu: STA $0300
+INFO:cpu: LDA #A3
+INFO:cpu: STA $33
+INFO:cpu: LDA #12
+INFO:cpu: STA $0245
+INFO:cpu: LDX #65
+INFO:cpu: LDY #00
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: CLV
+INFO:cpu: LDA $0300,Y
+INFO:cpu: BEQ $DF71
+INFO:cpu: BCC $DF71
+INFO:cpu: BVS $DF71
+INFO:cpu: CMP #89
+INFO:cpu: BNE $DF71
+INFO:cpu: CPX #65
+INFO:cpu: BEQ $DF75
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDY #34
+INFO:cpu: LDA $FFFF,Y
+INFO:cpu: CMP #A3
+INFO:cpu: BNE $DF86
+INFO:cpu: BCS $DF8A
+INFO:cpu: LDA #46
+INFO:cpu: STA $FF
+INFO:cpu: LDY #FF
+INFO:cpu: LDA $0146,Y
+INFO:cpu: CMP #12
+INFO:cpu: BEQ $DF9B
+INFO:cpu: LDX #39
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0400
+INFO:cpu: LDA #55
+INFO:cpu: LDY #00
+INFO:cpu: ORA $0400,Y
+INFO:cpu: BCS $DFBA
+INFO:cpu: BPL $DFBA
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $DFBA
+INFO:cpu: BVS $DFBC
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: ORA $0400,Y
+INFO:cpu: BEQ $DFCC
+INFO:cpu: BVS $DFCC
+INFO:cpu: BCC $DFCC
+INFO:cpu: BMI $DFCE
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: AND $0400,Y
+INFO:cpu: BNE $DFDF
+INFO:cpu: BVC $DFDF
+INFO:cpu: BCS $DFDF
+INFO:cpu: BPL $DFE1
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #EF
+INFO:cpu: STA $0400
+INFO:cpu: LDA #F8
+INFO:cpu: AND $0400,Y
+INFO:cpu: BCC $DFF8
+INFO:cpu: BPL $DFF8
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $DFF8
+INFO:cpu: BVC $DFFA
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0400
+INFO:cpu: LDA #5F
+INFO:cpu: EOR $0400,Y
+INFO:cpu: BCS $E012
+INFO:cpu: BPL $E012
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $E012
+INFO:cpu: BVS $E014
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: STA $0400
+INFO:cpu: EOR $0400,Y
+INFO:cpu: BNE $E027
+INFO:cpu: BVS $E027
+INFO:cpu: BCC $E027
+INFO:cpu: BPL $E029
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #69
+INFO:cpu: STA $0400
+INFO:cpu: LDA #00
+INFO:cpu: ADC $0400,Y
+INFO:cpu: BMI $E041
+INFO:cpu: BCS $E041
+INFO:cpu: CMP #69
+INFO:cpu: BNE $E041
+INFO:cpu: BVC $E043
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: ADC $0400,Y
+INFO:cpu: BMI $E056
+INFO:cpu: BCS $E056
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $E056
+INFO:cpu: BVC $E058
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0400
+INFO:cpu: ADC $0400,Y
+INFO:cpu: BPL $E06D
+INFO:cpu: BCS $E06D
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $E06D
+INFO:cpu: BVS $E06F
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #80
+INFO:cpu: STA $0400
+INFO:cpu: LDA #7F
+INFO:cpu: ADC $0400,Y
+INFO:cpu: BPL $E087
+INFO:cpu: BCS $E087
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $E087
+INFO:cpu: BVC $E089
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #80
+INFO:cpu: STA $0400
+INFO:cpu: LDA #7F
+INFO:cpu: ADC $0400,Y
+INFO:cpu: BNE $E09E
+INFO:cpu: BMI $E09E
+INFO:cpu: BVS $E09E
+INFO:cpu: BCS $E0A0
+INFO:cpu: INX
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: STA $0400
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BMI $E0B3
+INFO:cpu: BCC $E0B3
+INFO:cpu: BNE $E0B3
+INFO:cpu: BVS $E0B5
+INFO:cpu: INX
+INFO:cpu: CLV
+INFO:cpu: DEC $0400
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BEQ $E0C5
+INFO:cpu: BMI $E0C5
+INFO:cpu: BCC $E0C5
+INFO:cpu: BVC $E0C7
+INFO:cpu: INX
+INFO:cpu: INC $0400
+INFO:cpu: INC $0400
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BEQ $E0D5
+INFO:cpu: BMI $E0D7
+INFO:cpu: INX
+INFO:cpu: LDA #00
+INFO:cpu: STA $0400
+INFO:cpu: LDA #80
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BEQ $E0E8
+INFO:cpu: BPL $E0E8
+INFO:cpu: BCS $E0EA
+INFO:cpu: INX
+INFO:cpu: LDY #80
+INFO:cpu: STY $0400
+INFO:cpu: LDY #00
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BNE $E0FB
+INFO:cpu: BMI $E0FB
+INFO:cpu: BCS $E0FD
+INFO:cpu: INX
+INFO:cpu: INC $0400
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BCS $E10A
+INFO:cpu: BEQ $E10A
+INFO:cpu: BMI $E10C
+INFO:cpu: INX
+INFO:cpu: DEC $0400
+INFO:cpu: DEC $0400
+INFO:cpu: CMP $0400,Y
+INFO:cpu: BCC $E11C
+INFO:cpu: BEQ $E11C
+INFO:cpu: BPL $E11E
+INFO:cpu: INX
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: STA $0400
+INFO:cpu: SEC
+INFO:cpu: SBC $0400,Y
+INFO:cpu: BMI $E136
+INFO:cpu: BCC $E136
+INFO:cpu: BNE $E136
+INFO:cpu: BVS $E136
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $E138
+INFO:cpu: INX
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: DEC $0400
+INFO:cpu: SBC $0400,Y
+INFO:cpu: BEQ $E14F
+INFO:cpu: BMI $E14F
+INFO:cpu: BCC $E14F
+INFO:cpu: BVS $E14F
+INFO:cpu: CMP #01
+INFO:cpu: BEQ $E151
+INFO:cpu: INX
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: INC $0400
+INFO:cpu: INC $0400
+INFO:cpu: SBC $0400,Y
+INFO:cpu: BCS $E16C
+INFO:cpu: BEQ $E16C
+INFO:cpu: BPL $E16C
+INFO:cpu: BVS $E16C
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $E16E
+INFO:cpu: INX
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: STA $0400
+INFO:cpu: LDA #80
+INFO:cpu: SBC $0400,Y
+INFO:cpu: BCC $E180
+INFO:cpu: CMP #7F
+INFO:cpu: BEQ $E182
+INFO:cpu: INX
+INFO:cpu: SEC
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0400
+INFO:cpu: LDA #81
+INFO:cpu: SBC $0400,Y
+INFO:cpu: BVC $E196
+INFO:cpu: BCC $E196
+INFO:cpu: CMP #02
+INFO:cpu: BEQ $E198
+INFO:cpu: INX
+INFO:cpu: LDA #00
+INFO:cpu: LDA #87
+INFO:cpu: STA $0400,Y
+INFO:cpu: LDA $0400
+INFO:cpu: CMP #87
+INFO:cpu: BEQ $E1A9
+INFO:cpu: RTS
+INFO:cpu: JSR $DBB8
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDA #AA
+INFO:cpu: STA $33
+INFO:cpu: LDA #BB
+INFO:cpu: STA $89
+INFO:cpu: LDX #00
+INFO:cpu: LDA #66
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDY #00
+INFO:cpu: LDY $33,X
+INFO:cpu: BPL $DBE3
+INFO:cpu: BEQ $DBE3
+INFO:cpu: BVC $DBE3
+INFO:cpu: BCC $DBE3
+INFO:cpu: CMP #66
+INFO:cpu: BNE $DBE3
+INFO:cpu: CPX #00
+INFO:cpu: BNE $DBE3
+INFO:cpu: CPY #AA
+INFO:cpu: BEQ $DBE7
+INFO:cpu: LDX #8A
+INFO:cpu: LDA #66
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDY #00
+INFO:cpu: LDY $FF,X
+INFO:cpu: BPL $DC05
+INFO:cpu: BEQ $DC05
+INFO:cpu: BVS $DC05
+INFO:cpu: BCS $DC05
+INFO:cpu: CPY #BB
+INFO:cpu: BNE $DC05
+INFO:cpu: CMP #66
+INFO:cpu: BNE $DC05
+INFO:cpu: CPX #8A
+INFO:cpu: BEQ $DC09
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDY #44
+INFO:cpu: LDX #00
+INFO:cpu: STY $33,X
+INFO:cpu: LDA $33
+INFO:cpu: BCC $DC2E
+INFO:cpu: CMP #44
+INFO:cpu: BNE $DC2E
+INFO:cpu: BVC $DC2E
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDY #99
+INFO:cpu: LDX #80
+INFO:cpu: STY $85,X
+INFO:cpu: LDA $05
+INFO:cpu: BCS $DC2E
+INFO:cpu: CMP #99
+INFO:cpu: BNE $DC2E
+INFO:cpu: BVC $DC32
+INFO:cpu: LDY #0B
+INFO:cpu: LDA #AA
+INFO:cpu: LDX #78
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7B6
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: ORA $00,X
+INFO:cpu: JSR $F7C0
+INFO:cpu: BCS $F7CB
+INFO:cpu: BPL $F7CB
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F7CB
+INFO:cpu: BVC $F7CB
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7CE
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ORA $00,X
+INFO:cpu: JSR $F7D3
+INFO:cpu: BNE $F7DC
+INFO:cpu: BVS $F7DC
+INFO:cpu: BCC $F7DC
+INFO:cpu: BMI $F7DC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7DF
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: AND $00,X
+INFO:cpu: JSR $F7E5
+INFO:cpu: BNE $F7EE
+INFO:cpu: BVC $F7EE
+INFO:cpu: BCS $F7EE
+INFO:cpu: BMI $F7EE
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #EF
+INFO:cpu: STA $78
+INFO:cpu: JSR $F7F1
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #F8
+INFO:cpu: RTS
+INFO:cpu: AND $00,X
+INFO:cpu: JSR $F7F6
+INFO:cpu: BCC $F801
+INFO:cpu: BPL $F801
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $F801
+INFO:cpu: BVS $F801
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $78
+INFO:cpu: JSR $F804
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #5F
+INFO:cpu: RTS
+INFO:cpu: EOR $00,X
+INFO:cpu: JSR $F80A
+INFO:cpu: BCS $F815
+INFO:cpu: BPL $F815
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $F815
+INFO:cpu: BVC $F815
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #70
+INFO:cpu: STA $78
+INFO:cpu: JSR $F818
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: RTS
+INFO:cpu: EOR $00,X
+INFO:cpu: JSR $F81D
+INFO:cpu: BNE $F826
+INFO:cpu: BVS $F826
+INFO:cpu: BCC $F826
+INFO:cpu: BMI $F826
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #69
+INFO:cpu: STA $78
+INFO:cpu: JSR $F829
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $00,X
+INFO:cpu: JSR $F82F
+INFO:cpu: BMI $F83A
+INFO:cpu: BCS $F83A
+INFO:cpu: CMP #69
+INFO:cpu: BNE $F83A
+INFO:cpu: BVS $F83A
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F83D
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $00,X
+INFO:cpu: JSR $F843
+INFO:cpu: BMI $F84E
+INFO:cpu: BCS $F84E
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $F84E
+INFO:cpu: BVS $F84E
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F851
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $00,X
+INFO:cpu: JSR $F856
+INFO:cpu: BPL $F861
+INFO:cpu: BCS $F861
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F861
+INFO:cpu: BVC $F861
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: JSR $F864
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $00,X
+INFO:cpu: JSR $F86A
+INFO:cpu: BPL $F875
+INFO:cpu: BCS $F875
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F875
+INFO:cpu: BVS $F875
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F878
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $00,X
+INFO:cpu: JSR $F87D
+INFO:cpu: BNE $F886
+INFO:cpu: BMI $F886
+INFO:cpu: BVS $F886
+INFO:cpu: BCC $F886
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $78
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #3F
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #41
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #80
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #81
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: PLA
+INFO:cpu: CMP $00,X
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $78
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC $00,X
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC $00,X
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $78
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC $00,X
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $78
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC $00,X
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $78
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC $00,X
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: LDA #AA
+INFO:cpu: STA $33
+INFO:cpu: LDA #BB
+INFO:cpu: STA $89
+INFO:cpu: LDX #00
+INFO:cpu: LDY #66
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LDA $33,X
+INFO:cpu: BPL $DD7F
+INFO:cpu: BEQ $DD7F
+INFO:cpu: BVC $DD7F
+INFO:cpu: BCC $DD7F
+INFO:cpu: CPY #66
+INFO:cpu: BNE $DD7F
+INFO:cpu: CPX #00
+INFO:cpu: BNE $DD7F
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $DD83
+INFO:cpu: LDX #8A
+INFO:cpu: LDY #66
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LDA $FF,X
+INFO:cpu: BPL $DDA1
+INFO:cpu: BEQ $DDA1
+INFO:cpu: BVS $DDA1
+INFO:cpu: BCS $DDA1
+INFO:cpu: CMP #BB
+INFO:cpu: BNE $DDA1
+INFO:cpu: CPY #66
+INFO:cpu: BNE $DDA1
+INFO:cpu: CPX #8A
+INFO:cpu: BEQ $DDA5
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #44
+INFO:cpu: LDX #00
+INFO:cpu: STA $33,X
+INFO:cpu: LDA $33
+INFO:cpu: BCC $DDCA
+INFO:cpu: CMP #44
+INFO:cpu: BNE $DDCA
+INFO:cpu: BVC $DDCA
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDA #99
+INFO:cpu: LDX #80
+INFO:cpu: STA $85,X
+INFO:cpu: LDA $05
+INFO:cpu: BCS $DDCA
+INFO:cpu: CMP #99
+INFO:cpu: BNE $DDCA
+INFO:cpu: BVC $DDCE
+INFO:cpu: LDY #25
+INFO:cpu: LDX #78
+INFO:cpu: JSR $F990
+INFO:cpu: LDX #55
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $00,X
+INFO:cpu: ASR $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $F99D
+INFO:cpu: BCC $F9BA
+INFO:cpu: BNE $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVC $F9BA
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9BA
+INFO:cpu: CLV
+INFO:cpu: LDA #AA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $00,X
+INFO:cpu: ASR $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $F9AD
+INFO:cpu: BCS $F9BA
+INFO:cpu: BEQ $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVS $F9BA
+INFO:cpu: CMP #55
+INFO:cpu: BNE $F9BA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9BD
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $00,X
+INFO:cpu: ASL $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $F9C3
+INFO:cpu: BCC $F9E1
+INFO:cpu: BNE $F9E1
+INFO:cpu: BMI $F9E1
+INFO:cpu: BVC $F9E1
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9E1
+INFO:cpu: CLV
+INFO:cpu: LDA #55
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $00,X
+INFO:cpu: ASL $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $F9D4
+INFO:cpu: BCS $F9E1
+INFO:cpu: BEQ $F9E1
+INFO:cpu: BPL $F9E1
+INFO:cpu: BVS $F9E1
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $F9E1
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9E4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $00,X
+INFO:cpu: ROR $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $F9EA
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BPL $FA08
+INFO:cpu: BVC $FA08
+INFO:cpu: CMP #80
+INFO:cpu: BNE $FA08
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $00,X
+INFO:cpu: ROR $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $F9FB
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BMI $FA08
+INFO:cpu: BVS $FA08
+INFO:cpu: CMP #2A
+INFO:cpu: BNE $FA08
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $FA0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $00,X
+INFO:cpu: ROL $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $FA10
+INFO:cpu: BCC $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BMI $FA2E
+INFO:cpu: BVC $FA2E
+INFO:cpu: CMP #01
+INFO:cpu: BNE $FA2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $00,X
+INFO:cpu: ROL $00,X
+INFO:cpu: LDA $00,X
+INFO:cpu: JSR $FA21
+INFO:cpu: BCS $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BPL $FA2E
+INFO:cpu: BVS $FA2E
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $FA2E
+INFO:cpu: RTS
+INFO:cpu: LDA #FF
+INFO:cpu: STA $00,X
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: INC $00,X
+INFO:cpu: BNE $DE46
+INFO:cpu: BMI $DE46
+INFO:cpu: BVC $DE46
+INFO:cpu: BCC $DE46
+INFO:cpu: LDA $00,X
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $DE4A
+INFO:cpu: LDA #7F
+INFO:cpu: STA $00,X
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: INC $00,X
+INFO:cpu: BEQ $DE60
+INFO:cpu: BPL $DE60
+INFO:cpu: BVS $DE60
+INFO:cpu: BCS $DE60
+INFO:cpu: LDA $00,X
+INFO:cpu: CMP #80
+INFO:cpu: BEQ $DE64
+INFO:cpu: LDA #00
+INFO:cpu: STA $00,X
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: DEC $00,X
+INFO:cpu: BEQ $DE7B
+INFO:cpu: BPL $DE7B
+INFO:cpu: BVC $DE7B
+INFO:cpu: BCC $DE7B
+INFO:cpu: LDA $00,X
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $DE7F
+INFO:cpu: LDA #80
+INFO:cpu: STA $00,X
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: DEC $00,X
+INFO:cpu: BEQ $DE95
+INFO:cpu: BMI $DE95
+INFO:cpu: BVS $DE95
+INFO:cpu: BCS $DE95
+INFO:cpu: LDA $00,X
+INFO:cpu: CMP #7F
+INFO:cpu: BEQ $DE99
+INFO:cpu: LDA #01
+INFO:cpu: STA $00,X
+INFO:cpu: DEC $00,X
+INFO:cpu: BEQ $DEA5
+INFO:cpu: LDA #33
+INFO:cpu: STA $78
+INFO:cpu: LDA #44
+INFO:cpu: LDY #78
+INFO:cpu: LDX #00
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDX $00,Y
+INFO:cpu: BCC $DEC8
+INFO:cpu: BVC $DEC8
+INFO:cpu: BMI $DEC8
+INFO:cpu: BEQ $DEC8
+INFO:cpu: CPX #33
+INFO:cpu: BNE $DEC8
+INFO:cpu: CPY #78
+INFO:cpu: BNE $DEC8
+INFO:cpu: CMP #44
+INFO:cpu: BEQ $DECC
+INFO:cpu: LDA #97
+INFO:cpu: STA $7F
+INFO:cpu: LDA #47
+INFO:cpu: LDY #FF
+INFO:cpu: LDX #00
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDX $80,Y
+INFO:cpu: BCS $DEEE
+INFO:cpu: BVS $DEEE
+INFO:cpu: BPL $DEEE
+INFO:cpu: BEQ $DEEE
+INFO:cpu: CPX #97
+INFO:cpu: BNE $DEEE
+INFO:cpu: CPY #FF
+INFO:cpu: BNE $DEEE
+INFO:cpu: CMP #47
+INFO:cpu: BEQ $DEF2
+INFO:cpu: LDA #00
+INFO:cpu: STA $7F
+INFO:cpu: LDA #47
+INFO:cpu: LDY #FF
+INFO:cpu: LDX #69
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: STX $80,Y
+INFO:cpu: BCS $DF1A
+INFO:cpu: BVS $DF1A
+INFO:cpu: BMI $DF1A
+INFO:cpu: BEQ $DF1A
+INFO:cpu: CPX #69
+INFO:cpu: BNE $DF1A
+INFO:cpu: CPY #FF
+INFO:cpu: BNE $DF1A
+INFO:cpu: CMP #47
+INFO:cpu: BNE $DF1A
+INFO:cpu: LDA $7F
+INFO:cpu: CMP #69
+INFO:cpu: BEQ $DF1E
+INFO:cpu: LDA #F5
+INFO:cpu: STA $4F
+INFO:cpu: LDA #47
+INFO:cpu: LDY #4F
+INFO:cpu: BIT $01
+INFO:cpu: LDX #00
+INFO:cpu: SEC
+INFO:cpu: STX $00,Y
+INFO:cpu: BCC $DF45
+INFO:cpu: BVC $DF45
+INFO:cpu: BMI $DF45
+INFO:cpu: BNE $DF45
+INFO:cpu: CPX #00
+INFO:cpu: BNE $DF45
+INFO:cpu: CPY #4F
+INFO:cpu: BNE $DF45
+INFO:cpu: CMP #47
+INFO:cpu: BNE $DF45
+INFO:cpu: LDA $4F
+INFO:cpu: BEQ $DF49
+INFO:cpu: RTS
+INFO:cpu: JSR $E1AA
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0633
+INFO:cpu: LDA #BB
+INFO:cpu: STA $0689
+INFO:cpu: LDX #00
+INFO:cpu: LDA #66
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDY #00
+INFO:cpu: LDY $0633,X
+INFO:cpu: BPL $E1D8
+INFO:cpu: BEQ $E1D8
+INFO:cpu: BVC $E1D8
+INFO:cpu: BCC $E1D8
+INFO:cpu: CMP #66
+INFO:cpu: BNE $E1D8
+INFO:cpu: CPX #00
+INFO:cpu: BNE $E1D8
+INFO:cpu: CPY #AA
+INFO:cpu: BEQ $E1DC
+INFO:cpu: LDX #8A
+INFO:cpu: LDA #66
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDY #00
+INFO:cpu: LDY $05FF,X
+INFO:cpu: BPL $E1FB
+INFO:cpu: BEQ $E1FB
+INFO:cpu: BVS $E1FB
+INFO:cpu: BCS $E1FB
+INFO:cpu: CPY #BB
+INFO:cpu: BNE $E1FB
+INFO:cpu: CMP #66
+INFO:cpu: BNE $E1FB
+INFO:cpu: CPX #8A
+INFO:cpu: BEQ $E1FF
+INFO:cpu: LDY #53
+INFO:cpu: LDA #AA
+INFO:cpu: LDX #78
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7B6
+INFO:cpu: CLC
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: ORA $0600,X
+INFO:cpu: JSR $F7C0
+INFO:cpu: BCS $F7CB
+INFO:cpu: BPL $F7CB
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F7CB
+INFO:cpu: BVC $F7CB
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7CE
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ORA $0600,X
+INFO:cpu: JSR $F7D3
+INFO:cpu: BNE $F7DC
+INFO:cpu: BVS $F7DC
+INFO:cpu: BCC $F7DC
+INFO:cpu: BMI $F7DC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7DF
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: AND $0600,X
+INFO:cpu: JSR $F7E5
+INFO:cpu: BNE $F7EE
+INFO:cpu: BVC $F7EE
+INFO:cpu: BCS $F7EE
+INFO:cpu: BMI $F7EE
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #EF
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F7F1
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #F8
+INFO:cpu: RTS
+INFO:cpu: AND $0600,X
+INFO:cpu: JSR $F7F6
+INFO:cpu: BCC $F801
+INFO:cpu: BPL $F801
+INFO:cpu: CMP #E8
+INFO:cpu: BNE $F801
+INFO:cpu: BVS $F801
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F804
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #5F
+INFO:cpu: RTS
+INFO:cpu: EOR $0600,X
+INFO:cpu: JSR $F80A
+INFO:cpu: BCS $F815
+INFO:cpu: BPL $F815
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $F815
+INFO:cpu: BVC $F815
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #70
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F818
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #70
+INFO:cpu: RTS
+INFO:cpu: EOR $0600,X
+INFO:cpu: JSR $F81D
+INFO:cpu: BNE $F826
+INFO:cpu: BVS $F826
+INFO:cpu: BCC $F826
+INFO:cpu: BMI $F826
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #69
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F829
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $0600,X
+INFO:cpu: JSR $F82F
+INFO:cpu: BMI $F83A
+INFO:cpu: BCS $F83A
+INFO:cpu: CMP #69
+INFO:cpu: BNE $F83A
+INFO:cpu: BVS $F83A
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F83D
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #00
+INFO:cpu: RTS
+INFO:cpu: ADC $0600,X
+INFO:cpu: JSR $F843
+INFO:cpu: BMI $F84E
+INFO:cpu: BCS $F84E
+INFO:cpu: CMP #6A
+INFO:cpu: BNE $F84E
+INFO:cpu: BVS $F84E
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F851
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $0600,X
+INFO:cpu: JSR $F856
+INFO:cpu: BPL $F861
+INFO:cpu: BCS $F861
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F861
+INFO:cpu: BVC $F861
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F864
+INFO:cpu: CLC
+INFO:cpu: BIT $01
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $0600,X
+INFO:cpu: JSR $F86A
+INFO:cpu: BPL $F875
+INFO:cpu: BCS $F875
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F875
+INFO:cpu: BVS $F875
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F878
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: LDA #7F
+INFO:cpu: RTS
+INFO:cpu: ADC $0600,X
+INFO:cpu: JSR $F87D
+INFO:cpu: BNE $F886
+INFO:cpu: BMI $F886
+INFO:cpu: BVS $F886
+INFO:cpu: BCC $F886
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F889
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F88E
+INFO:cpu: BMI $F897
+INFO:cpu: BCC $F897
+INFO:cpu: BNE $F897
+INFO:cpu: BVC $F897
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: JSR $F89A
+INFO:cpu: CLV
+INFO:cpu: RTS
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F89C
+INFO:cpu: BEQ $F8A5
+INFO:cpu: BMI $F8A5
+INFO:cpu: BCC $F8A5
+INFO:cpu: BVS $F8A5
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #41
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F8A8
+INFO:cpu: BEQ $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: BPL $F8AF
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: JSR $F8B2
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F8B5
+INFO:cpu: BEQ $F8BC
+INFO:cpu: BPL $F8BC
+INFO:cpu: BCC $F8BC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #80
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F8BF
+INFO:cpu: BNE $F8C6
+INFO:cpu: BMI $F8C6
+INFO:cpu: BCC $F8C6
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #81
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F8C9
+INFO:cpu: BCS $F8D0
+INFO:cpu: BEQ $F8D0
+INFO:cpu: BPL $F8D0
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: PHA
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: PLA
+INFO:cpu: CMP $0600,X
+INFO:cpu: JSR $F8D3
+INFO:cpu: BCC $F8DA
+INFO:cpu: BEQ $F8DA
+INFO:cpu: BMI $F8DA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #40
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC $0600,X
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #3F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC $0600,X
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #41
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC $0600,X
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC $0600,X
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0678
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC $0600,X
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0633
+INFO:cpu: LDA #BB
+INFO:cpu: STA $0689
+INFO:cpu: LDX #00
+INFO:cpu: LDY #66
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LDA $0633,X
+INFO:cpu: BPL $E37B
+INFO:cpu: BEQ $E37B
+INFO:cpu: BVC $E37B
+INFO:cpu: BCC $E37B
+INFO:cpu: CPY #66
+INFO:cpu: BNE $E37B
+INFO:cpu: CPX #00
+INFO:cpu: BNE $E37B
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $E37F
+INFO:cpu: LDX #8A
+INFO:cpu: LDY #66
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LDA $05FF,X
+INFO:cpu: BPL $E39E
+INFO:cpu: BEQ $E39E
+INFO:cpu: BVS $E39E
+INFO:cpu: BCS $E39E
+INFO:cpu: CMP #BB
+INFO:cpu: BNE $E39E
+INFO:cpu: CPY #66
+INFO:cpu: BNE $E39E
+INFO:cpu: CPX #8A
+INFO:cpu: BEQ $E3A2
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #44
+INFO:cpu: LDX #00
+INFO:cpu: STA $0633,X
+INFO:cpu: LDA $0633
+INFO:cpu: BCC $E3CB
+INFO:cpu: CMP #44
+INFO:cpu: BNE $E3CB
+INFO:cpu: BVC $E3CB
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDA #99
+INFO:cpu: LDX #80
+INFO:cpu: STA $0585,X
+INFO:cpu: LDA $0605
+INFO:cpu: BCS $E3CB
+INFO:cpu: CMP #99
+INFO:cpu: BNE $E3CB
+INFO:cpu: BVC $E3CF
+INFO:cpu: LDY #6D
+INFO:cpu: LDX #6D
+INFO:cpu: JSR $F990
+INFO:cpu: LDX #55
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: NOP
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $0600,X
+INFO:cpu: ASR $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $F99D
+INFO:cpu: BCC $F9BA
+INFO:cpu: BNE $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVC $F9BA
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9BA
+INFO:cpu: CLV
+INFO:cpu: LDA #AA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0600,X
+INFO:cpu: ASR $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $F9AD
+INFO:cpu: BCS $F9BA
+INFO:cpu: BEQ $F9BA
+INFO:cpu: BMI $F9BA
+INFO:cpu: BVS $F9BA
+INFO:cpu: CMP #55
+INFO:cpu: BNE $F9BA
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9BD
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $0600,X
+INFO:cpu: ASL $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $F9C3
+INFO:cpu: BCC $F9E1
+INFO:cpu: BNE $F9E1
+INFO:cpu: BMI $F9E1
+INFO:cpu: BVC $F9E1
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F9E1
+INFO:cpu: CLV
+INFO:cpu: LDA #55
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0600,X
+INFO:cpu: ASL $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $F9D4
+INFO:cpu: BCS $F9E1
+INFO:cpu: BEQ $F9E1
+INFO:cpu: BPL $F9E1
+INFO:cpu: BVS $F9E1
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $F9E1
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F9E4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #01
+INFO:cpu: RTS
+INFO:cpu: STA $0600,X
+INFO:cpu: ROR $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $F9EA
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BPL $FA08
+INFO:cpu: BVC $FA08
+INFO:cpu: CMP #80
+INFO:cpu: BNE $FA08
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0600,X
+INFO:cpu: ROR $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $F9FB
+INFO:cpu: BCC $FA08
+INFO:cpu: BEQ $FA08
+INFO:cpu: BMI $FA08
+INFO:cpu: BVS $FA08
+INFO:cpu: CMP #2A
+INFO:cpu: BNE $FA08
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $FA0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: STA $0600,X
+INFO:cpu: ROL $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $FA10
+INFO:cpu: BCC $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BMI $FA2E
+INFO:cpu: BVC $FA2E
+INFO:cpu: CMP #01
+INFO:cpu: BNE $FA2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #55
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: STA $0600,X
+INFO:cpu: ROL $0600,X
+INFO:cpu: LDA $0600,X
+INFO:cpu: JSR $FA21
+INFO:cpu: BCS $FA2E
+INFO:cpu: BEQ $FA2E
+INFO:cpu: BPL $FA2E
+INFO:cpu: BVS $FA2E
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $FA2E
+INFO:cpu: RTS
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0600,X
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: INC $0600,X
+INFO:cpu: BNE $E462
+INFO:cpu: BMI $E462
+INFO:cpu: BVC $E462
+INFO:cpu: BCC $E462
+INFO:cpu: LDA $0600,X
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $E466
+INFO:cpu: LDA #7F
+INFO:cpu: STA $0600,X
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: INC $0600,X
+INFO:cpu: BEQ $E47F
+INFO:cpu: BPL $E47F
+INFO:cpu: BVS $E47F
+INFO:cpu: BCS $E47F
+INFO:cpu: LDA $0600,X
+INFO:cpu: CMP #80
+INFO:cpu: BEQ $E483
+INFO:cpu: LDA #00
+INFO:cpu: STA $0600,X
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: DEC $0600,X
+INFO:cpu: BEQ $E49D
+INFO:cpu: BPL $E49D
+INFO:cpu: BVC $E49D
+INFO:cpu: BCC $E49D
+INFO:cpu: LDA $0600,X
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $E4A1
+INFO:cpu: LDA #80
+INFO:cpu: STA $0600,X
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: DEC $0600,X
+INFO:cpu: BEQ $E4BA
+INFO:cpu: BMI $E4BA
+INFO:cpu: BVS $E4BA
+INFO:cpu: BCS $E4BA
+INFO:cpu: LDA $0600,X
+INFO:cpu: CMP #7F
+INFO:cpu: BEQ $E4BE
+INFO:cpu: LDA #01
+INFO:cpu: STA $0600,X
+INFO:cpu: DEC $0600,X
+INFO:cpu: BEQ $E4CC
+INFO:cpu: LDA #33
+INFO:cpu: STA $0678
+INFO:cpu: LDA #44
+INFO:cpu: LDY #78
+INFO:cpu: LDX #00
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: LDX $0600,Y
+INFO:cpu: BCC $E4F1
+INFO:cpu: BVC $E4F1
+INFO:cpu: BMI $E4F1
+INFO:cpu: BEQ $E4F1
+INFO:cpu: CPX #33
+INFO:cpu: BNE $E4F1
+INFO:cpu: CPY #78
+INFO:cpu: BNE $E4F1
+INFO:cpu: CMP #44
+INFO:cpu: BEQ $E4F5
+INFO:cpu: LDA #97
+INFO:cpu: STA $067F
+INFO:cpu: LDA #47
+INFO:cpu: LDY #FF
+INFO:cpu: LDX #00
+INFO:cpu: CLC
+INFO:cpu: CLV
+INFO:cpu: LDX $0580,Y
+INFO:cpu: BCS $E519
+INFO:cpu: BVS $E519
+INFO:cpu: BPL $E519
+INFO:cpu: BEQ $E519
+INFO:cpu: CPX #97
+INFO:cpu: BNE $E519
+INFO:cpu: CPY #FF
+INFO:cpu: BNE $E519
+INFO:cpu: CMP #47
+INFO:cpu: BEQ $E51D
+INFO:cpu: RTS
+INFO:cpu: JSR $C6A3
+INFO:cpu: LDY #4E
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: JSR $C6B0
+INFO:cpu: LDA #FF
+INFO:cpu: PHA
+INFO:cpu: LDA #AA
+INFO:cpu: BNE $C6BC
+INFO:cpu: PLP
+INFO:cpu: NOP_ILLEGAL $A9
+INFO:cpu: NOP_ILLEGAL $A9
+INFO:cpu: NOP_ILLEGAL $A9
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL $A9A9
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL #89
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDX #05
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: CMP #CB
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: CMP #CB
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: CMP #CB
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: CMP #CB
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: CMP #AA
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: CMP #CB
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: RTS
+INFO:cpu: JSR $C6B7
+INFO:cpu: LDA #34
+INFO:cpu: PHA
+INFO:cpu: LDA #55
+INFO:cpu: PLP
+INFO:cpu: NOP_ILLEGAL $A9
+INFO:cpu: NOP_ILLEGAL $A9
+INFO:cpu: NOP_ILLEGAL $A9
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL $A9A9
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP_ILLEGAL $A9,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL
+INFO:cpu: NOP_ILLEGAL #89
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP_ILLEGAL $A9A9,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDX #05
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: PLA
+INFO:cpu: CMP #55
+INFO:cpu: BEQ $C71B
+INFO:cpu: PLA
+INFO:cpu: AND #CB
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $C728
+INFO:cpu: INY
+INFO:cpu: DEX
+INFO:cpu: BNE $C70C
+INFO:cpu: RTS
+INFO:cpu: RTS
+INFO:cpu: JSR $E51E
+INFO:cpu: LDA #55
+INFO:cpu: STA $0580
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0432
+INFO:cpu: LDA #80
+INFO:cpu: STA $43
+INFO:cpu: LDA #05
+INFO:cpu: STA $44
+INFO:cpu: LDA #32
+INFO:cpu: STA $45
+INFO:cpu: LDA #04
+INFO:cpu: STA $46
+INFO:cpu: LDX #03
+INFO:cpu: LDY #77
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LAX ($40,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E55F
+INFO:cpu: BMI $E55F
+INFO:cpu: BVC $E55F
+INFO:cpu: BCC $E55F
+INFO:cpu: CMP #55
+INFO:cpu: BNE $E55F
+INFO:cpu: CPX #55
+INFO:cpu: BNE $E55F
+INFO:cpu: CPY #77
+INFO:cpu: BEQ $E563
+INFO:cpu: LDX #05
+INFO:cpu: LDY #33
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LAX ($40,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E585
+INFO:cpu: BPL $E585
+INFO:cpu: BVS $E585
+INFO:cpu: BCS $E585
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $E585
+INFO:cpu: CPX #AA
+INFO:cpu: BNE $E585
+INFO:cpu: CPY #33
+INFO:cpu: BEQ $E589
+INFO:cpu: LDA #87
+INFO:cpu: STA $67
+INFO:cpu: LDA #32
+INFO:cpu: STA $68
+INFO:cpu: LDY #57
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $67
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E5B2
+INFO:cpu: BPL $E5B2
+INFO:cpu: BVC $E5B2
+INFO:cpu: BCC $E5B2
+INFO:cpu: CMP #87
+INFO:cpu: BNE $E5B2
+INFO:cpu: CPX #87
+INFO:cpu: BNE $E5B2
+INFO:cpu: CPY #57
+INFO:cpu: BEQ $E5B6
+INFO:cpu: LDY #53
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $68
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E5D6
+INFO:cpu: BMI $E5D6
+INFO:cpu: BVS $E5D6
+INFO:cpu: BCS $E5D6
+INFO:cpu: CMP #32
+INFO:cpu: BNE $E5D6
+INFO:cpu: CPX #32
+INFO:cpu: BNE $E5D6
+INFO:cpu: CPY #53
+INFO:cpu: BEQ $E5DA
+INFO:cpu: LDA #87
+INFO:cpu: STA $0577
+INFO:cpu: LDA #32
+INFO:cpu: STA $0578
+INFO:cpu: LDY #57
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $0577
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E606
+INFO:cpu: BPL $E606
+INFO:cpu: BVC $E606
+INFO:cpu: BCC $E606
+INFO:cpu: CMP #87
+INFO:cpu: BNE $E606
+INFO:cpu: CPX #87
+INFO:cpu: BNE $E606
+INFO:cpu: CPY #57
+INFO:cpu: BEQ $E60A
+INFO:cpu: LDY #53
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $0578
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E62B
+INFO:cpu: BMI $E62B
+INFO:cpu: BVS $E62B
+INFO:cpu: BCS $E62B
+INFO:cpu: CMP #32
+INFO:cpu: BNE $E62B
+INFO:cpu: CPX #32
+INFO:cpu: BNE $E62B
+INFO:cpu: CPY #53
+INFO:cpu: BEQ $E62F
+INFO:cpu: LDA #FF
+INFO:cpu: STA $43
+INFO:cpu: LDA #04
+INFO:cpu: STA $44
+INFO:cpu: LDA #32
+INFO:cpu: STA $45
+INFO:cpu: LDA #04
+INFO:cpu: STA $46
+INFO:cpu: LDA #55
+INFO:cpu: STA $0580
+INFO:cpu: LDA #AA
+INFO:cpu: STA $0432
+INFO:cpu: LDX #03
+INFO:cpu: LDY #81
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LAX ($43),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E66C
+INFO:cpu: BMI $E66C
+INFO:cpu: BVC $E66C
+INFO:cpu: BCC $E66C
+INFO:cpu: CMP #55
+INFO:cpu: BNE $E66C
+INFO:cpu: CPX #55
+INFO:cpu: BNE $E66C
+INFO:cpu: CPY #81
+INFO:cpu: BEQ $E670
+INFO:cpu: LDX #05
+INFO:cpu: LDY #00
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LAX ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E692
+INFO:cpu: BPL $E692
+INFO:cpu: BVS $E692
+INFO:cpu: BCS $E692
+INFO:cpu: CMP #AA
+INFO:cpu: BNE $E692
+INFO:cpu: CPX #AA
+INFO:cpu: BNE $E692
+INFO:cpu: CPY #00
+INFO:cpu: BEQ $E696
+INFO:cpu: LDA #87
+INFO:cpu: STA $67
+INFO:cpu: LDA #32
+INFO:cpu: STA $68
+INFO:cpu: LDY #57
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $10,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E6BF
+INFO:cpu: BPL $E6BF
+INFO:cpu: BVC $E6BF
+INFO:cpu: BCC $E6BF
+INFO:cpu: CMP #87
+INFO:cpu: BNE $E6BF
+INFO:cpu: CPX #87
+INFO:cpu: BNE $E6BF
+INFO:cpu: CPY #57
+INFO:cpu: BEQ $E6C3
+INFO:cpu: LDY #FF
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $69,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E6E3
+INFO:cpu: BMI $E6E3
+INFO:cpu: BVS $E6E3
+INFO:cpu: BCS $E6E3
+INFO:cpu: CMP #32
+INFO:cpu: BNE $E6E3
+INFO:cpu: CPX #32
+INFO:cpu: BNE $E6E3
+INFO:cpu: CPY #FF
+INFO:cpu: BEQ $E6E7
+INFO:cpu: LDA #87
+INFO:cpu: STA $0587
+INFO:cpu: LDA #32
+INFO:cpu: STA $0588
+INFO:cpu: LDY #30
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $0557,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E713
+INFO:cpu: BPL $E713
+INFO:cpu: BVC $E713
+INFO:cpu: BCC $E713
+INFO:cpu: CMP #87
+INFO:cpu: BNE $E713
+INFO:cpu: CPX #87
+INFO:cpu: BNE $E713
+INFO:cpu: CPY #30
+INFO:cpu: BEQ $E717
+INFO:cpu: LDY #40
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #00
+INFO:cpu: LAX $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E738
+INFO:cpu: BMI $E738
+INFO:cpu: BVS $E738
+INFO:cpu: BCS $E738
+INFO:cpu: CMP #32
+INFO:cpu: BNE $E738
+INFO:cpu: CPX #32
+INFO:cpu: BNE $E738
+INFO:cpu: CPY #40
+INFO:cpu: BEQ $E73C
+INFO:cpu: RTS
+INFO:cpu: JSR $E73D
+INFO:cpu: LDA #C0
+INFO:cpu: STA $01
+INFO:cpu: LDA #00
+INFO:cpu: STA $0489
+INFO:cpu: LDA #89
+INFO:cpu: STA $60
+INFO:cpu: LDA #04
+INFO:cpu: STA $61
+INFO:cpu: LDY #44
+INFO:cpu: LDX #17
+INFO:cpu: LDA #3E
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: SAX ($49,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BNE $E778
+INFO:cpu: BCS $E778
+INFO:cpu: BVC $E778
+INFO:cpu: BPL $E778
+INFO:cpu: CMP #3E
+INFO:cpu: BNE $E778
+INFO:cpu: CPY #44
+INFO:cpu: BNE $E778
+INFO:cpu: CPX #17
+INFO:cpu: BNE $E778
+INFO:cpu: LDA $0489
+INFO:cpu: CMP #16
+INFO:cpu: BEQ $E77C
+INFO:cpu: LDY #44
+INFO:cpu: LDX #7A
+INFO:cpu: LDA #66
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: SAX ($E6,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E7A5
+INFO:cpu: BCC $E7A5
+INFO:cpu: BVS $E7A5
+INFO:cpu: BMI $E7A5
+INFO:cpu: CMP #66
+INFO:cpu: BNE $E7A5
+INFO:cpu: CPY #44
+INFO:cpu: BNE $E7A5
+INFO:cpu: CPX #7A
+INFO:cpu: BNE $E7A5
+INFO:cpu: LDA $0489
+INFO:cpu: CMP #62
+INFO:cpu: BEQ $E7A9
+INFO:cpu: LDA #FF
+INFO:cpu: STA $49
+INFO:cpu: LDY #44
+INFO:cpu: LDX #AA
+INFO:cpu: LDA #55
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: SAX $49
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E7D6
+INFO:cpu: BCS $E7D6
+INFO:cpu: BVC $E7D6
+INFO:cpu: BPL $E7D6
+INFO:cpu: CMP #55
+INFO:cpu: BNE $E7D6
+INFO:cpu: CPY #44
+INFO:cpu: BNE $E7D6
+INFO:cpu: CPX #AA
+INFO:cpu: BNE $E7D6
+INFO:cpu: LDA $49
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $E7DA
+INFO:cpu: LDA #00
+INFO:cpu: STA $56
+INFO:cpu: LDY #58
+INFO:cpu: LDX #EF
+INFO:cpu: LDA #66
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: SAX $56
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E806
+INFO:cpu: BCC $E806
+INFO:cpu: BVS $E806
+INFO:cpu: BMI $E806
+INFO:cpu: CMP #66
+INFO:cpu: BNE $E806
+INFO:cpu: CPY #58
+INFO:cpu: BNE $E806
+INFO:cpu: CPX #EF
+INFO:cpu: BNE $E806
+INFO:cpu: LDA $56
+INFO:cpu: CMP #66
+INFO:cpu: BEQ $E80A
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0549
+INFO:cpu: LDY #E5
+INFO:cpu: LDX #AF
+INFO:cpu: LDA #F5
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: SAX $0549
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E83A
+INFO:cpu: BCS $E83A
+INFO:cpu: BVC $E83A
+INFO:cpu: BPL $E83A
+INFO:cpu: CMP #F5
+INFO:cpu: BNE $E83A
+INFO:cpu: CPY #E5
+INFO:cpu: BNE $E83A
+INFO:cpu: CPX #AF
+INFO:cpu: BNE $E83A
+INFO:cpu: LDA $0549
+INFO:cpu: CMP #A5
+INFO:cpu: BEQ $E83E
+INFO:cpu: LDA #00
+INFO:cpu: STA $0556
+INFO:cpu: LDY #58
+INFO:cpu: LDX #B3
+INFO:cpu: LDA #97
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: SAX $0556
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E86D
+INFO:cpu: BCC $E86D
+INFO:cpu: BVS $E86D
+INFO:cpu: BPL $E86D
+INFO:cpu: CMP #97
+INFO:cpu: BNE $E86D
+INFO:cpu: CPY #58
+INFO:cpu: BNE $E86D
+INFO:cpu: CPX #B3
+INFO:cpu: BNE $E86D
+INFO:cpu: LDA $0556
+INFO:cpu: CMP #93
+INFO:cpu: BEQ $E871
+INFO:cpu: LDA #FF
+INFO:cpu: STA $49
+INFO:cpu: LDY #FF
+INFO:cpu: LDX #AA
+INFO:cpu: LDA #55
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: SAX $4A,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E89E
+INFO:cpu: BCS $E89E
+INFO:cpu: BVC $E89E
+INFO:cpu: BPL $E89E
+INFO:cpu: CMP #55
+INFO:cpu: BNE $E89E
+INFO:cpu: CPY #FF
+INFO:cpu: BNE $E89E
+INFO:cpu: CPX #AA
+INFO:cpu: BNE $E89E
+INFO:cpu: LDA $49
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $E8A2
+INFO:cpu: LDA #00
+INFO:cpu: STA $56
+INFO:cpu: LDY #06
+INFO:cpu: LDX #EF
+INFO:cpu: LDA #66
+INFO:cpu: SEC
+INFO:cpu: CLV
+INFO:cpu: SAX $50,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: BEQ $E8CE
+INFO:cpu: BCC $E8CE
+INFO:cpu: BVS $E8CE
+INFO:cpu: BMI $E8CE
+INFO:cpu: CMP #66
+INFO:cpu: BNE $E8CE
+INFO:cpu: CPY #06
+INFO:cpu: BNE $E8CE
+INFO:cpu: CPX #EF
+INFO:cpu: BNE $E8CE
+INFO:cpu: LDA $56
+INFO:cpu: CMP #66
+INFO:cpu: BEQ $E8D2
+INFO:cpu: RTS
+INFO:cpu: JSR $E8D3
+INFO:cpu: LDY #90
+INFO:cpu: JSR $F931
+INFO:cpu: BIT $01
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: RTS
+INFO:cpu: SBC_ILLEGAL #40
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $F937
+INFO:cpu: BMI $F944
+INFO:cpu: BCC $F944
+INFO:cpu: BNE $F944
+INFO:cpu: BVS $F944
+INFO:cpu: CMP #00
+INFO:cpu: BNE $F944
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F947
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: SBC_ILLEGAL #3F
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $F94C
+INFO:cpu: BEQ $F959
+INFO:cpu: BMI $F959
+INFO:cpu: BCC $F959
+INFO:cpu: BVS $F959
+INFO:cpu: CMP #01
+INFO:cpu: BNE $F959
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F95C
+INFO:cpu: LDA #40
+INFO:cpu: SEC
+INFO:cpu: BIT $01
+INFO:cpu: RTS
+INFO:cpu: SBC_ILLEGAL #41
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $F962
+INFO:cpu: BCS $F96F
+INFO:cpu: BEQ $F96F
+INFO:cpu: BPL $F96F
+INFO:cpu: BVS $F96F
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $F96F
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F972
+INFO:cpu: CLC
+INFO:cpu: LDA #80
+INFO:cpu: RTS
+INFO:cpu: SBC_ILLEGAL #00
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $F976
+INFO:cpu: BCC $F97D
+INFO:cpu: CMP #7F
+INFO:cpu: BNE $F97D
+INFO:cpu: RTS
+INFO:cpu: INY
+INFO:cpu: JSR $F980
+INFO:cpu: SEC
+INFO:cpu: LDA #81
+INFO:cpu: RTS
+INFO:cpu: SBC_ILLEGAL #7F
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $F984
+INFO:cpu: BVC $F98D
+INFO:cpu: BCC $F98D
+INFO:cpu: CMP #02
+INFO:cpu: BNE $F98D
+INFO:cpu: RTS
+INFO:cpu: RTS
+INFO:cpu: JSR $E916
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDY #95
+INFO:cpu: LDX #02
+INFO:cpu: LDA #47
+INFO:cpu: STA $47
+INFO:cpu: LDA #06
+INFO:cpu: STA $48
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $E940
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $E95B
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $E976
+INFO:cpu: INY
+INFO:cpu: LDA #EB
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $E98F
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $E9A8
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $E9C1
+INFO:cpu: INY
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $E9DD
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $E9F9
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $EA15
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: LDA #48
+INFO:cpu: STA $45
+INFO:cpu: LDA #05
+INFO:cpu: STA $46
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #9E
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $EA3D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #00
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #9F
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $EA5D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #A0
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $EA7D
+INFO:cpu: LDY #A1
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #EB
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $EA99
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $EAB2
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $EACB
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #A4
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $EAEC
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #00
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #A5
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $EB0D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #A6
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $EB2E
+INFO:cpu: LDY #A7
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA31
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: DCP $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA37
+INFO:cpu: BVC $FA65
+INFO:cpu: BCS $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: CMP #40
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EA
+INFO:cpu: BEQ $EB4D
+INFO:cpu: INY
+INFO:cpu: LDA #00
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA42
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: DCP $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA47
+INFO:cpu: BVS $FA65
+INFO:cpu: BNE $FA65
+INFO:cpu: BMI $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FA65
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #FF
+INFO:cpu: BEQ $EB69
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA54
+INFO:cpu: BIT $01
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: DCP $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA59
+INFO:cpu: BVC $FA65
+INFO:cpu: BEQ $FA65
+INFO:cpu: BPL $FA65
+INFO:cpu: BCC $FA65
+INFO:cpu: CMP #F0
+INFO:cpu: BEQ $FA67
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #36
+INFO:cpu: BEQ $EB85
+INFO:cpu: RTS
+INFO:cpu: JSR $EB86
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDY #AA
+INFO:cpu: LDX #02
+INFO:cpu: LDA #47
+INFO:cpu: STA $47
+INFO:cpu: LDA #06
+INFO:cpu: STA $48
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $EBB0
+INFO:cpu: INY
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $EBCB
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $EBE6
+INFO:cpu: INY
+INFO:cpu: LDA #EB
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $EBFF
+INFO:cpu: INY
+INFO:cpu: LDA #FF
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $EC18
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $EC31
+INFO:cpu: INY
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $EC4D
+INFO:cpu: INY
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $EC69
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $EC85
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: LDA #48
+INFO:cpu: STA $45
+INFO:cpu: LDA #05
+INFO:cpu: STA $46
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #B3
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $ECAD
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #B4
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $ECCD
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #B5
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $ECED
+INFO:cpu: LDY #B6
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #EB
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $ED09
+INFO:cpu: INY
+INFO:cpu: LDA #FF
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $ED22
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $ED3B
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #B9
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $ED5C
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #BA
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $ED7D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #BB
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $ED9E
+INFO:cpu: LDY #BC
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #EB
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAB1
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #40
+INFO:cpu: RTS
+INFO:cpu: ISB $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAB7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: CMP #53
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #EC
+INFO:cpu: BEQ $EDBD
+INFO:cpu: INY
+INFO:cpu: LDA #FF
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAC2
+INFO:cpu: CLV
+INFO:cpu: SEC
+INFO:cpu: LDA #FF
+INFO:cpu: RTS
+INFO:cpu: ISB $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAC7
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #FF
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #00
+INFO:cpu: BEQ $EDD9
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAD4
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #F0
+INFO:cpu: RTS
+INFO:cpu: ISB $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FADA
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: CMP #B8
+INFO:cpu: BEQ $FAE8
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #38
+INFO:cpu: BEQ $EDF5
+INFO:cpu: RTS
+INFO:cpu: JSR $EDF6
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDY #BF
+INFO:cpu: LDX #02
+INFO:cpu: LDA #47
+INFO:cpu: STA $47
+INFO:cpu: LDA #06
+INFO:cpu: STA $48
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $EE20
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $EE3B
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $EE56
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $EE6F
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $EE88
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $EEA1
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $EEBD
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $EED9
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $EEF5
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDA #48
+INFO:cpu: STA $45
+INFO:cpu: LDA #05
+INFO:cpu: STA $46
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #C8
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $EF1D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #C9
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $EF3D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #CA
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $EF5D
+INFO:cpu: LDY #CB
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $EF79
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $EF92
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $EFAB
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #CE
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $EFCC
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #CF
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $EFED
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #D0
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $F00E
+INFO:cpu: LDY #D1
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA7B
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SLO $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA81
+INFO:cpu: BVC $FAE6
+INFO:cpu: BCC $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: CMP #FB
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F02D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA8C
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #C3
+INFO:cpu: RTS
+INFO:cpu: SLO $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA91
+INFO:cpu: BVS $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BPL $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #D3
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F049
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA9E
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #10
+INFO:cpu: RTS
+INFO:cpu: SLO $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAA4
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #7E
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6E
+INFO:cpu: BEQ $F065
+INFO:cpu: RTS
+INFO:cpu: JSR $F066
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDY #D4
+INFO:cpu: LDX #02
+INFO:cpu: LDA #47
+INFO:cpu: STA $47
+INFO:cpu: LDA #06
+INFO:cpu: STA $48
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F090
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F0AB
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F0C6
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F0DF
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F0F8
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F111
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F12D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F149
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F165
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDA #48
+INFO:cpu: STA $45
+INFO:cpu: LDA #05
+INFO:cpu: STA $46
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #DD
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F18D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #DE
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F1AD
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #DF
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F1CD
+INFO:cpu: LDY #E0
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F1E9
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F202
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F21B
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #E3
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F23C
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #E4
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F25D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #E5
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F27E
+INFO:cpu: LDY #E6
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB53
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: RLA $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB59
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: CMP #02
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #4A
+INFO:cpu: BEQ $F29D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB64
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RLA $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB69
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCS $FB75
+INFO:cpu: CMP #42
+INFO:cpu: BEQ $FB77
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F2B9
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FA68
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RLA $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FA6E
+INFO:cpu: BVC $FAE6
+INFO:cpu: BEQ $FAE6
+INFO:cpu: BMI $FAE6
+INFO:cpu: BCS $FAE6
+INFO:cpu: CMP #65
+INFO:cpu: BNE $FAE6
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #6F
+INFO:cpu: BEQ $F2D5
+INFO:cpu: RTS
+INFO:cpu: JSR $F2D6
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDY #E9
+INFO:cpu: LDX #02
+INFO:cpu: LDA #47
+INFO:cpu: STA $47
+INFO:cpu: LDA #06
+INFO:cpu: STA $48
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F300
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F31B
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F336
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F34F
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F368
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F381
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F39D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F3B9
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F3D5
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDA #48
+INFO:cpu: STA $45
+INFO:cpu: LDA #05
+INFO:cpu: STA $46
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #F2
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F3FD
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #F3
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F41D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #F4
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F43D
+INFO:cpu: LDY #F5
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F459
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F472
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F48B
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #F8
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F4AC
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #F9
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F4CD
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #FA
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F4EE
+INFO:cpu: LDY #FB
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB1D
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B3
+INFO:cpu: RTS
+INFO:cpu: SRE $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB23
+INFO:cpu: BVC $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: BPL $FB75
+INFO:cpu: CMP #E1
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F50D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB2E
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: SRE $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB33
+INFO:cpu: BVS $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #56
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F529
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB40
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: SRE $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB46
+INFO:cpu: BVC $FB75
+INFO:cpu: BEQ $FB75
+INFO:cpu: BMI $FB75
+INFO:cpu: BCC $FB75
+INFO:cpu: CMP #6E
+INFO:cpu: BNE $FB75
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #1B
+INFO:cpu: BEQ $F545
+INFO:cpu: RTS
+INFO:cpu: LDA $00
+INFO:cpu: STA $11
+INFO:cpu: LDA #00
+INFO:cpu: STA $00
+INFO:cpu: JSR $F546
+INFO:cpu: LDA #FF
+INFO:cpu: STA $01
+INFO:cpu: LDY #01
+INFO:cpu: LDX #02
+INFO:cpu: LDA #47
+INFO:cpu: STA $47
+INFO:cpu: LDA #06
+INFO:cpu: STA $48
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F570
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F58B
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA ($45,X)
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F5A6
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F5BF
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F5D8
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA $47
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F5F1
+INFO:cpu: INY
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F60D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F629
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA $0647
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F645
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDA #48
+INFO:cpu: STA $45
+INFO:cpu: LDA #05
+INFO:cpu: STA $46
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #0A
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F66D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #0B
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F68D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA ($45),Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #0C
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F6AD
+INFO:cpu: LDY #0D
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F6C9
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $47
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F6E2
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $47
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA $48,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $47
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F6FB
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: LDY #FF
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #10
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F71C
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #11
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F73D
+INFO:cpu: LDY #FF
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA $0548,Y
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: PHP
+INFO:cpu: PHA
+INFO:cpu: LDY #12
+INFO:cpu: PLA
+INFO:cpu: PLP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F75E
+INFO:cpu: LDY #13
+INFO:cpu: LDX #FF
+INFO:cpu: LDA #A5
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAE9
+INFO:cpu: BIT $01
+INFO:cpu: CLC
+INFO:cpu: LDA #B2
+INFO:cpu: RTS
+INFO:cpu: RRA $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAEF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: CMP #05
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #52
+INFO:cpu: BEQ $F77D
+INFO:cpu: INY
+INFO:cpu: LDA #29
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FAFA
+INFO:cpu: CLV
+INFO:cpu: CLC
+INFO:cpu: LDA #42
+INFO:cpu: RTS
+INFO:cpu: RRA $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FAFF
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCS $FB1B
+INFO:cpu: CMP #57
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #14
+INFO:cpu: BEQ $F799
+INFO:cpu: INY
+INFO:cpu: LDA #37
+INFO:cpu: STA $0647
+INFO:cpu: JSR $FB0A
+INFO:cpu: BIT $01
+INFO:cpu: SEC
+INFO:cpu: LDA #75
+INFO:cpu: RTS
+INFO:cpu: RRA $0548,X
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: NOP
+INFO:cpu: JSR $FB10
+INFO:cpu: BVS $FB1B
+INFO:cpu: BMI $FB1B
+INFO:cpu: BCC $FB1B
+INFO:cpu: CMP #11
+INFO:cpu: BNE $FB1B
+INFO:cpu: RTS
+INFO:cpu: LDA $0647
+INFO:cpu: CMP #9B
+INFO:cpu: BEQ $F7B5
+INFO:cpu: RTS
+INFO:cpu: LDA $00
+INFO:cpu: ORA $10
+INFO:cpu: ORA $11
+INFO:cpu: BEQ $C66B
+INFO:cpu: JSR $C689
+INFO:cpu: LDA #02
+INFO:cpu: STA $4015
+INFO:cpu: LDA #3F
+INFO:cpu: STA $4004
+INFO:cpu: LDA #9A
+INFO:cpu: STA $4005
+INFO:cpu: LDA #FF
+INFO:cpu: STA $4006
+INFO:cpu: LDA #00
+INFO:cpu: STA $4007
+INFO:cpu: RTS
+INFO:cpu: RTS
