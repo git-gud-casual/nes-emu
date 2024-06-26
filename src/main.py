@@ -1,8 +1,9 @@
 import logging
 
-from time import time, sleep
+from time import time
 from cpu.cpu import Cpu
-from memory import CpuMemory, NROMCartridge
+from memory import CpuMemoryMapper, NROMCartridge
+from ppu import PPU
 
 
 logging.basicConfig(level=logging.INFO, filename="../nestest/mylog.log", filemode="w")
@@ -17,12 +18,10 @@ if __name__ == "__main__":
     a[0xFFFC - 0x8000] = 0x00
     a[0xFFFC - 0x8000 + 1] = 0xC0
 
-    cpu = Cpu(CpuMemory(NROMCartridge(a)))
+    ppu = PPU()
+    cpu = Cpu(CpuMemoryMapper(NROMCartridge(a), ppu))
     start = time()
     for i in range(8991):
-        try:
-            cpu.process()
-        except Exception as e:
-            sleep(5)
-            raise e
+        cpu.process()
     print(f"Time: {time() - start}. CPU Cycles: {cpu._cycles_count}")
+    print(ppu._ppu_ctrl.value)

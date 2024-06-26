@@ -3,10 +3,10 @@ import logging
 from typing import Dict, Optional
 from .cpu_instruction import *
 from memory import BaseMemory
+from utils import FlagsRegister
 
 
-class PSRegister:
-    _value: int
+class PSRegister(FlagsRegister):
     _MASK = 0x20
 
     def __init__(self):
@@ -19,15 +19,6 @@ class PSRegister:
     @value.setter
     def value(self, new_val: int):
         self._value = new_val | self._MASK
-
-    def _get_bit(self, bit_index: int) -> bool:
-        return bool(self._value & (1 << bit_index))
-
-    def _set_bit(self, bit_index: int, value: bool):
-        if value:
-            self._value |= 1 << bit_index
-        else:
-            self._value &= ~(1 << bit_index)
 
     # Carry Flag
     @property
