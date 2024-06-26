@@ -29,8 +29,7 @@ class CpuMemoryMapper(BaseMemory):
         if addr < self._RAM_END:
             return self._memory[addr % self._RAM_SIZE]
         elif addr < self._PPU_END:
-            addr %= 8
-
+            addr %= self._PPU_SIZE
             raise NotImplementedError()
         elif addr < self._APU_AND_IO_END:
             raise NotImplementedError()
@@ -43,12 +42,14 @@ class CpuMemoryMapper(BaseMemory):
         if addr < self._RAM_END:
             self._memory[addr % self._RAM_SIZE] = value
         elif addr < self._PPU_END:
+            addr %= self._PPU_SIZE
             if addr == self._PPU_CONTROLLER_ADDR:
                 self._ppu.set_ctrl_reg(value)
             elif addr == self._PPU_MASK_ADDR:
                 self._ppu.set_mask_reg(value)
             elif addr == self._PPU_OAM_ADDR:
                 pass
+            raise NotImplementedError()
         elif addr < self._APU_AND_IO_END:
             print("APU_AND_IO WRITE")
             # raise NotImplementedError()
